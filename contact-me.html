@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moira Framos </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="Moira Framos" />
+    <meta name="application-name" content="Moira Framos" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+
+    <!-- PANEL -->
+    <section class="panel">
+        <div class="panel-container"><img class="panel-img"src="/public/panelv02.png"></img></div>
+
+    </section>
+
+    <!-- HEADER -->
+
+    <section class="head">
+        <div class="dropdown">
+            <div id="hamburger-parent">
+                <div id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+            </div>
+            <!-- NAVBAR -->
+
+            <nav id="navbar" class="hidden space-y-x">
+                <a class="nav-link" href="/character-design.html">Character <br> design</a>
+                <a class="nav-link" href="/concept-art.html">Concept art & Background</a>
+                <a class="nav-link" href="/prop-design.html">Prop design</a>
+                <a class="nav-link" href="/animation.html">Animation</a>
+                <!-- <a class="nav-link" href="/projects.html">Projects</a> -->
+                <a class="nav-link" href="/cv.html">CV</a>
+                <a class="nav-link" href="/other-artists.html">Other artists</a>
+            </nav>
+        </div>
+
+        <script>
+            var hamburger = document.getElementById("hamburger")
+            var navbar = document.getElementById("navbar")
+            document.getElementById("hamburger-parent").addEventListener("click", () => {
+                hamburger.classList.toggle("open")
+                navbar.classList.toggle("hidden")
+            })
+
+
+        </script>
+
+        <div class="logo-icon-contact">
+            <a class="contact-link" href="/contact-me.html"><button class="button">Contact me!</button></a>
+
+            <a class="logo-icon" href="/">
+                <div class="avatar"><img class="avatar-icon"src="/public/icon.png"></div>
+                <div class="name"><img class="name-icon"src="/public/LOGO_v03.png" alt="Moira Framos Visual developer"></div>
+            </a>
+        </div>
+
+        <div class="social-icons">
+
+            <div class="insta icon">
+                <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                        class="other-icons"src="/public/insta_icon.png"></img></a>
+            </div>
+
+
+            <div class="linkedin icon">
+                <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                        class="other-icons"src="/public/In_icon.png"></a>
+            </div>
+
+
+            <div class="github icon">
+                <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img class="other-icons"
+                       src="/public/git_icon.png"></a>
+            </div>
+
+
+        </div>
+
+        <div class="etsy icon">
+            <a id="profile-link" target="_blank" href="https://www.etsy.com/shop/MoirasTrove"><img class="etsy-icon"
+                   src="/public/shop_icon.png"></a>
+            <p class="etsy-text">My shop!</p>
+        </div>
+
+
+    </section>
+
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+
+        <section class="PROJECT 08">
+
+            <div class="option">
+                <div class="line">
+
+                    <input class="box" required id="name" type="text" placeholder="Your name"></input>
+
+
+                    <input class="box" required id="email" type="email" placeholder="Your email"></input>
+                </div>
+
+
+                <textarea class="message" id="review" name="review">
+          </textarea>
+
+                <!-- <button id="submit">Send!</button> -->
+
+                <form method="post" action="mailto:f.r.moira@gmail.com">
+                    <input id="submit" type="submit" value="Send!" />
+                </form>
+            </div>
+
+            <p class="or">- Or -</p>
+
+            <div class="option theother">
+
+
+
+                <p class="you_can">You can email me here:</p>
+                <h2 class="my_email">f.r.moira@gmail.com</h2>
+
+            </div>
+
+
+
+        </section>
+
+
+    </section>
+
+
+    <!-- <script type="module"src="/public/main.js"></script> -->
+</body>
+
+</html>
