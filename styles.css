@@ -328,7 +328,7 @@ body {
 
 } */
 
-#submit {
+/* #submit {
     background-color: #fd535c;
     text-decoration: none;
     border: 0;
@@ -375,15 +375,17 @@ body {
     font-size: 15px;
     color: #c0b8ff;
     margin: 30px auto 30px auto;
-}
+} */
 
 .theother {
     background-color: #c0b8ff;
-    margin: 90px auto 300px auto;
-    width: 730px;
-    height: 100px;
     border-radius: 8px;
     padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin: 80px auto 200px auto;
 }
 
 .you_can {
@@ -456,7 +458,7 @@ body {
     border: 0;
     width: 200px;
     height: 35px;
-    border-radius: 8px  8px 0 0;
+    border-radius: 8px;
     font-weight: bold;
     color: white;
     margin: auto 5px;
@@ -479,40 +481,48 @@ body {
 
 .cv-img {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
 }
 
 .cv-img01 {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
 }
 .cv-img02 {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
 }
 .cv-img03 {
-    width: 240px;
+       width: 100%;
+    max-width: 240px;
+    margin: auto;
+    text-align: center;
 }
 
 /* OTHER ARTISTS  */
 .artist-icon {
-    width: 150px;
+    width: 120px;
     text-align: center;
 }
 
 
-.temp_logo {
+/* .temp_logo {
 
-    padding: 80px;
+    padding: 60px;
     background-color: teal;
     border-radius: 200px;
     margin: auto;
-}
+} */
 
 .artist_name {
-    width: 150px;
+    width: 130px;
     font-size: 20px;
     font-weight: bold;
     margin: auto;
@@ -521,7 +531,7 @@ body {
 }
 
 .artist-type {
-    width: 150px;
+    width: 130px;
     text-align: center;
     font-size: 16px;
     color: #66c4b2;
@@ -534,7 +544,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     transition: 0.15s ease-in-out;
 
@@ -713,35 +723,36 @@ body {
         max-width: 400px;
         margin: 10px auto 20px auto;
         position: relative;
-        top: -30px;
+        top: -40px;
     }
     .dropdown {
-        position: absolute;
-        top: 235px;
-        left: 40px;
+        position: relative;
+        top: 255px;
+        left: -10%;
 
 
     }
     .button {
-        position: absolute;
-        top: 260px;
-        left: 134px;
+        position: relative;
+        top: 280px;
+        left: -40%;
 
     }
     .etsy   {
-        position: absolute;
-        top: 190px; 
-        left: 320px;   
+        position: relative;
+        top: -43px; 
+        left: 8%;   
 
     }
     .social-icons {
-        position: absolute;
-        top: 190px;
+        position: relative;
+        top: -60px;
+        left: 12%;
     }
 
     #projects {
         position: relative;
-        top: 80px;
+        top: -80px;
     }
     .imgs {
         /* Prevent vertical gaps */
@@ -774,17 +785,21 @@ body {
     }
 
     .cv-img01 {
-        width: 200px;
+        width: 100%;
+        max-width: 150px;
     }
     .cv-img02 {
-        width: 500px;
+        width: 100%;
+        max-width: 350px;
+
     }
     .cv-img03 {
-        width: 190px;
+           width: 100%;
+        max-width: 140px;
     }
 
     .theother {
-        width: 400px;
+        max-width: 300px;
 
     }
 
