@@ -145,6 +145,7 @@
         const enlarged = document.getElementById("enlarge")
         const invisibleBox = document.getElementById("invisibleBox")
         const body = document.getElementsByTagName("body")[0]
+        if (window.innerWidth > 600) {
         document.querySelectorAll(".imgs .img").forEach((el) => {
             el.addEventListener("click", (event) => {
                 event.stopPropagation()
@@ -170,6 +171,7 @@
             })
 
         })
+    }
 
 
     </script>
