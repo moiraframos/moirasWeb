@@ -725,6 +725,11 @@ body {
         position: relative;
         top: -40px;
     }
+
+    #navbar {
+        left: 50px;
+        top: 70px;
+    }
     .dropdown {
         position: relative;
         top: 255px;
