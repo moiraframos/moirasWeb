@@ -316,6 +316,17 @@ body {
 }
 
 /* CONTACT*/
+/* .contact-me-box {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #b1ff75;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    
+
+} */
 
 #submit {
     background-color: #fd535c;
@@ -328,6 +339,7 @@ body {
     color: white;
     transition: 0.15s ease-in-out;
     margin-top: 20px;
+    
 }
 
 .box {
@@ -339,6 +351,7 @@ body {
     border-radius: 8px;
     margin-top: 30px;
     padding: 10px;
+    
 
 }
 
@@ -366,7 +379,7 @@ body {
 
 .theother {
     background-color: #c0b8ff;
-    margin: 30px auto 30px auto;
+    margin: 90px auto 300px auto;
     width: 730px;
     height: 100px;
     border-radius: 8px;
@@ -414,7 +427,7 @@ body {
 
 
 /* REEL */
-
+/* 
 .link-to-reel {
     font-size: 25px;
     color: rgb(20, 140, 86);
@@ -422,7 +435,7 @@ body {
     text-transform: uppercase;
 
 
-}
+} */
 
 .reel {
     width: 100%;
@@ -465,9 +478,23 @@ body {
 
 
 .cv-img {
-    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.cv-img01 {
+    width: 250px;
+}
+.cv-img02 {
+    width: 700px;
+}
+.cv-img03 {
+    width: 240px;
+}
 
 /* OTHER ARTISTS  */
 .artist-icon {
@@ -657,10 +684,25 @@ body {
     position: relative;
 }
 
+/* FOOTER */
+
+.footer {
+    color: #c0b8ff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#profile-link {
+    color: #8e86ea;
+}
+
 
 /* PHONE MEDIA */
 
 @media only screen and (max-width: 600px) {
+
     .head {
         display: flex;
         flex-direction: row;
@@ -698,8 +740,8 @@ body {
     }
 
     #projects {
-        position: absolute;
-        top: 300px;
+        position: relative;
+        top: 80px;
     }
     .imgs {
         /* Prevent vertical gaps */
@@ -731,4 +773,26 @@ body {
         }
     }
 
+    .cv-img01 {
+        width: 200px;
+    }
+    .cv-img02 {
+        width: 500px;
+    }
+    .cv-img03 {
+        width: 190px;
+    }
+
+    .theother {
+        width: 400px;
+
+    }
+
+    .footer {
+        position: relative;
+        top: 50px;
+    }
+    
+
 }
+
