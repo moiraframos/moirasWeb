@@ -561,9 +561,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 65px auto 0 auto;
+    
 
+}
+
+.one-line {
+    margin: 18px auto;
 }
 
 /* IMGS  */
