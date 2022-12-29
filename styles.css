@@ -58,7 +58,7 @@ body {
     position: absolute;
     height: 6px;
     width: 50%;
-    background: #9933ff;
+    background: #ffa217;
     opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -71,7 +71,7 @@ body {
 }
 
 #hamburger.open span {
-    background: #ff3333;
+    background: #ffca2b;
 }
 
 #hamburger span:nth-child(even) {
@@ -159,7 +159,7 @@ body {
 }
 
 .space-y-x> :not([hidden])~ :not([hidden]) {
-    margin-top: 2px;
+    margin-top: 1.5px;
 }
 
 #navbar {
@@ -170,7 +170,7 @@ body {
     flex-direction: column;
     font-size: 0.8rem;
     align-items: center;
-    background-color: #5625e8;
+    background-color: #00adaf;
     border-radius: 15px;
     transition: visibility 0s, opacity 0.5s ease-in-out;
     z-index: 1001;
@@ -178,11 +178,11 @@ body {
 }
 
 #navbar> :last-child {
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 8px 8px;
 }
 
 #navbar> :first-child {
-    border-radius: 15px 15px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 .nav-link {
@@ -190,26 +190,26 @@ body {
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-    background-color: #6633ff;
+    background-color: #009fa2;
     padding: 10px 0;
     width: 165px;
     margin: auto;
     float: left;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
 
 }
 
 .nav-link:hover {
-    background-color: #a688ff;
+    background-color: #08bcb6;
 }
 
 #hamburger:hover>span {
-    background-color: #ffa217;
+    background-color: #ffca2b;
 }
 
 .button:hover {
-    background-color: #ffa217;
+    background-color: #87d2c5;
 }
 
 /* HEAD */
@@ -230,7 +230,7 @@ body {
 .name {
     text-align: center;
     font-size: 50px;
-    color: #ff2929;
+    color: #00b2d5;
 
 }
 
@@ -238,24 +238,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 0 1px 0 25px; */
 }
-
-/* .logo-icon-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .avatar-icon {
     width: 120px;
+    margin-left: -40px;
 
 }
 
 .name-icon {
-    width: 250px;
+    width: 300px;
     margin-top: 20px;
-    margin-left: -10px;
+    margin-left: -12px;
 }
 
 
@@ -275,44 +269,45 @@ body {
     width: 60px;
     margin-top: 20px;
     padding: 1px;
-    background-color: #fbcd00;
+    background-color: #ffc518;
     border-radius: 40px;
     transition: 0.15s ease-in-out;
 }
 
 .etsy-icon:hover {
-    background-color: #a688ff;
+    background-color: #ffd79a;
 }
 
 .etsy-text {
     font-size: 13px;
     text-align: center;
+    letter-spacing: 0.5px;
 
 }
 
 .other-icons {
     width: 35px;
     padding: 1px;
-    background-color: #ffa217;
+    background-color: #46bca8;
     border-radius: 8px;
     transition: 0.15s ease-in-out;
 }
 
 .other-icons:hover {
-    background-color: #a688ff;
+    background-color: #87d2c5;
 }
 
 .button {
-    background-color: #fd535c;
+    background-color: #46bca8;
     text-decoration: none;
     border: 0;
-    width: 130px;
+    width: 150px;
     height: 35px;
-    border-radius: 8px;
-    font-weight: bold;
+    border-radius: 30px;
     color: white;
-    margin-right: 0px;
+    margin-right: 15px;
     transition: 0.15s ease-in-out;
+    letter-spacing: 1px;
 }
 
 /* CONTACT*/
@@ -378,14 +373,14 @@ body {
 } */
 
 .theother {
-    background-color: #c0b8ff;
+    background-color: #93d9d7;
     border-radius: 8px;
-    padding: 20px;
+    padding: 60px 20px;
     width: 100%;
     max-width: 800px;
     margin: auto;
     text-align: center;
-    margin: 80px auto 200px auto;
+    margin: 80px auto 50px auto;
 }
 
 .you_can {
@@ -395,9 +390,35 @@ body {
 
 .my_email {
     font-size: 30px;
-    margin-top: 15px;
-    color:rgb(58, 45, 157)
+    margin: 15px 0 0 45px;
+    color:rgb(45, 133, 157);
+    font-weight: lighter;
 }
+.copydiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copybutton {
+    border: none; 
+    background-color: transparent;
+
+}
+
+#copyicon {
+    width: 25px;
+    margin: 20px 0 0 10px;
+    opacity: 60%;
+    filter: invert(1) sepia(0) hue-rotate(0deg) saturate(0%) contrast(100);
+    
+}
+
+#copyicon:hover {
+    opacity: 100%;
+}
+
 
 
 /* PAGES */
@@ -453,7 +474,7 @@ body {
 /* CONCEPT AND BG */
 
 .concept-bg-button {
-    background-color: #a688ff;
+    background-color: #08bcb6;
     text-decoration: none;
     border: 0;
     width: 200px;
@@ -467,11 +488,11 @@ body {
 }
 
 .hover-keep {
-    background-color: #c0b8ff;
+    background-color: #90e1de;
 }
 
 .concept-bg-button:hover {
-    background-color: #c0b8ff ;
+    background-color: #90e1de ;
 }
 
 
@@ -505,6 +526,196 @@ body {
     margin: auto;
     text-align: center;
 }
+
+/* ABOUT ME */
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 50px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+.profilepic {
+    width: 250px;
+    height: fit-content;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.bio {
+    font-size: 14px;
+    font-weight: lighter;
+    width: 620px;
+    margin: 12px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+/* DUCK */
+/* .duckref {
+    opacity: 50%;
+    position: absolute;
+    top: 493px;
+    left: 578px;
+    z-index: -1;
+} */
+
+.duck {
+   background-color: transparent; 
+   width: 80px;
+   height: 100px;
+   margin: auto auto 100px auto;
+   position: relative;
+
+}
+
+.duck-body {
+    position: relative;
+    z-index: 6;
+    animation: 1s linear infinite dance;
+}
+
+@keyframes dance {
+    5% {
+      transform: translateY(2px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    55% {
+      transform: translateY(0px);
+    }
+  }
+
+.duck-head {
+    background-color: #00989b;
+    position: relative;
+    width: 40px;
+    height: 33px;
+    left: 12px;
+    top: 7px;
+    border-radius: 19px;
+    z-index: 4;
+}
+
+.eye {
+    position: absolute;
+    background-color: black;
+    width: 5.5px;
+    height: 5.5px;
+    border-radius: 5px;
+    left: 32px;
+    top: 18px;
+    z-index: 5;
+}
+
+.beak {
+    position: absolute;
+    background-color: coral;
+    width: 23px;
+    height: 13px;
+    border-radius: 15px;
+    top: 17px;
+    left: 5px;  
+    z-index: 5;  
+}
+
+.neck {
+    position: absolute;
+    background-color: rgb(253, 195, 88);
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    left: 22px;
+    z-index: 3;
+}
+
+.body {
+    position: relative;
+    background-color: #ff1a35;
+    width: 60px;
+    height: 43px;
+    border-radius: 27px;
+    top: 8px;
+    left: 10px;
+    z-index: 4;
+}
+
+
+.chest {
+    position: absolute;
+    background-color: #dd0025;
+    width: 40px;
+    height: 43px;
+    border-radius: 27px 26px 26px  27px ;
+    z-index: 4;
+}
+
+.tail {
+    position: absolute;
+    background-color: #e1000b;
+    width: 15px;
+    height: 20px;
+    left: 60px;
+    top: 50px;
+    border-radius: 0 15px 30px 0;
+    transform: rotate(-20deg);
+    z-index: 3;
+}
+
+.left-leg {
+    position: absolute;
+    background-color: coral;
+    width: 9px;
+    height: 25px;
+    left: 32px;
+    top: 65px;
+    z-index: 3;
+}
+
+.left-foot {
+    position: absolute;
+    background-color: coral;
+    width: 20px;
+    height: 8px;
+    left: -10px;
+    top: 21px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.right-leg {
+    position: absolute;
+    background-color: rgb(255, 165, 80);
+    width: 9px;
+    height: 25px;
+    left: 43px;
+    top: 65px;
+    z-index: 3;
+}
+
+.right-foot {
+    position: absolute;
+    background-color: rgb(255, 165, 80);
+    width: 18px;
+    height: 8px;
+    left: -6px;
+    top: 21px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
 
 /* OTHER ARTISTS  */
 .artist-icon {
@@ -702,15 +913,16 @@ body {
 /* FOOTER */
 
 .footer {
-    color: #c0b8ff;
+    color: #8dc5c6;
     font-size: 10px;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 100px;
+    font-weight: lighter;
 }
 
 #profile-link {
-    color: #8e86ea;
+    color: #00989b;
 }
 
 
@@ -730,35 +942,87 @@ body {
         position: relative;
         top: -40px;
     }
-
+    .avatar-icon {
+        width: 100px;
+    
+    
+    }
+    .name-icon {
+        width: 270px;
+    }
+    
+    /* .logo-icon {
+        width: 50%;
+        margin-left: 30px;
+    } */
     #navbar {
         left: 50px;
-        top: 70px;
+        top: 80px;
     }
     .dropdown {
         position: relative;
-        top: 255px;
+        top: 260px;
         left: -10%;
 
 
     }
     .button {
         position: relative;
-        top: 280px;
-        left: -40%;
+        top: 290px;
+        left: -35%;
 
     }
     .etsy   {
         position: relative;
-        top: -43px; 
-        left: 8%;   
+        top: -45px; 
+        left: 6%;   
 
     }
     .social-icons {
         position: relative;
         top: -60px;
-        left: 12%;
+        left: 9%;
     }
+
+
+    .aboutme {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .profilepic {
+        width: 150px;
+    }
+    .bio {
+        width: 270px;
+    }
+
+    
+    .theother {
+        background-color: transparent;
+    }
+    
+    .you_can {
+        font-size: 18px;
+        color: rgb(154, 195, 234);
+    }
+    .my_email {
+        font-size: 25px;
+        margin-left: 0;
+    }
+    
+    #copyicon {
+        width: 20px;
+        opacity: 50%;
+        filter: invert(0);   
+
+    }
+
+    #copyicon:hover {
+        opacity: 80%;
+    }
+
+
 
     #projects {
         position: relative;

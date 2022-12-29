@@ -120,65 +120,68 @@
     <section id="projects">
 
 
-        <section class="PROJECT 00">
-            <div class="parent">
+        <section class="PROJECT 08">
+          <div class="aboutme">
+            <img class="profilepic" src="/public/Moira_photo.jpg"></img>
 
-                <div class="imgs">
-                    <img class="img" src="/public/8.webp"></img>
-                    <img class="img" src="/public/a.webp"></img>
-                    <img class="img" src="/public/5.webp"></img>
-                    <img class="img" src="/public/10.webp"></img>
-                    <img class="img" src="/public/6.webp"></img>
-                    <img class="img" src="/public/b.webp"></img>
+            <h2 class="bio">
+                Hey! 
+                <br>
+                <br>
+                Im Moira, a "want to do everything" artist, with my strongest skill beeing visual development.
+                <br>
+                <br>
+                I love to do quick sketches and concepts, designing characters
+                and explore with the most saturated colors your eyes are capable of seeing.
+                <br>
+                <br>
+                I'm also learning a bit of web desing, this website you're in was designed and also
+                 programed by me (with the help of 
+                 <a id="profile-link" target="_blank" href="https://www.crissto.dev/">Christian Stoyanov</a> for the programing part)
+                <br>
+                <br>
+                Other things I like are travelling, so im very interested in jobs abroad, full remote and freelance!
+                <br>
+                <br>
+                So yeah thats basically it, hope you like my portfolio!
+            </h2>
+            </div>
+
+            <div class="duck">
+              <div class="duck-body">
+                <div class="duck-head"></div>
+                  <div class="eye"></div>
+                  <div class="beak"></div>
+                
+                <div class="neck"></div>
+
+                <div class="body">
+                  <div class="chest" style="overflow:hidden;" ></div>
                 </div>
-
-                <div class="invisible-box" id="invisibleBox">
-                    <img class="img enlarge" id="enlarge"></img>
+                
+                <div class="tail"></div>
+              </div>
+                <div class="left-leg">
+                  <div class="left-knee"></div>
+                  <div class="left-foot"></div>
+                </div>
+                <div class="right-leg">
+                    <div class="right-knee"></div>
+                    <div class="right-foot"></div>
                 </div>
             </div>
+
+            <!-- <img class="duckref" width="300px" src="/public/duck_ref.png"></img> -->
+
+        
+
+            
 
         </section>
 
 
     </section>
 
-    <script>
-        // @ts-check
-        const enlarged = document.getElementById("enlarge")
-        const invisibleBox = document.getElementById("invisibleBox")
-        const body = document.getElementsByTagName("body")[0]
-        if (window.innerWidth > 600) {
-        document.querySelectorAll(".imgs .img").forEach((el) => {
-            el.addEventListener("click", (event) => {
-                event.stopPropagation()
-                invisibleBox.style.width = "100%"
-                invisibleBox.style.height = "100%"
-                enlarged.src = el.src
-
-                document.addEventListener("click", () => {
-                    invisibleBox.style.width = 0
-                    invisibleBox.style.height = 0
-                    setTimeout(() => enlarged.src = "", 250)
-                })
-                document.addEventListener("keydown",(ev)=>{
-                    if(ev.key == "Escape"){
-                        invisibleBox.style.width = 0
-                        invisibleBox.style.height = 0
-                        setTimeout(() => enlarged.src = "", 250)
-
-                    }
-                })
-
-
-            })
-
-        })
-    }
-
-
-    </script>
-
-    <!-- <script type="module"src="/public/main.js"></script> -->
 </body>
 
 <footer>

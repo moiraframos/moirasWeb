@@ -54,6 +54,7 @@
                 <a class="nav-link" href="/animation.html">Animation</a>
                 <!-- <a class="nav-link" href="/projects.html">Projects</a> -->
                 <a class="nav-link" href="/cv.html">CV</a>
+                <a class="nav-link" href="/about-me.html">About me</a>
                 <a class="nav-link" href="/other-artists.html">Other artists</a>
             </nav>
         </div>
@@ -74,7 +75,7 @@
 
             <a class="logo-icon" href="/">
                 <div class="avatar"><img class="avatar-icon"src="/public/icon.png"></div>
-                <div class="name"><img class="name-icon"src="/public/LOGO_v03.png" alt="Moira Framos Visual developer"></div>
+                <div class="name"><img class="name-icon"src="/public/Logo_v04.png" alt="Moira Framos Visual developer"></div>
             </a>
 
 
@@ -143,9 +144,46 @@
 
 
                 <p class="you_can">You can email me here:</p>
-                <h2 class="my_email">f.r.moira@gmail.com</h2>
+                <div class="copydiv">
+                    <h2 class="my_email">f.r.moira@gmail.com</h2>
+                    <button class="copybutton" onclick="copyText()"><img id="copyicon" src="/public/copy.png"></img></button>
+                </div>
 
             </div>
+              
+              
+            <script>
+                function copyText() {
+              
+                    /* Copy text into clipboard */
+                    navigator.clipboard.writeText
+                        ("f.r.moira@gmail.com");
+                }
+            </script>
+
+<div class="duck">
+    <div class="duck-body">
+      <div class="duck-head"></div>
+        <div class="eye"></div>
+        <div class="beak"></div>
+      
+      <div class="neck"></div>
+
+      <div class="body">
+        <div class="chest" style="overflow:hidden;" ></div>
+      </div>
+      
+      <div class="tail"></div>
+    </div>
+      <div class="left-leg">
+        <div class="left-knee"></div>
+        <div class="left-foot"></div>
+      </div>
+      <div class="right-leg">
+          <div class="right-knee"></div>
+          <div class="right-foot"></div>
+      </div>
+  </div>
 
 
 
