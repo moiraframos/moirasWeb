@@ -556,13 +556,13 @@ body {
 }
 
 /* DUCK */
-/* .duckref {
+.duckref {
     opacity: 50%;
     position: absolute;
     top: 493px;
     left: 578px;
     z-index: -1;
-} */
+}
 
 .duck {
    background-color: transparent; 
@@ -608,8 +608,8 @@ body {
     width: 5.5px;
     height: 5.5px;
     border-radius: 5px;
-    left: 32px;
-    top: 18px;
+    left: 20px;
+    top: 12px;
     z-index: 5;
 }
 
@@ -619,8 +619,8 @@ body {
     width: 23px;
     height: 13px;
     border-radius: 15px;
-    top: 17px;
-    left: 5px;  
+    top: 12px;
+    left: -7.5px;  
     z-index: 5;  
 }
 
@@ -709,11 +709,412 @@ body {
     z-index: 3;
 }
 
+.honk {
+    position: absolute;
+    left: 605px;
+    top: 495px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0px 10px;
+    border-color: transparent;
+    border-width: 1px;
+    background-color: transparent;
+    border-style:solid;
+    transition: 0.5s ease-in-out;
+
+}
+
+.duck:hover ~ .honk {
+    color: #00989b;
+    border-color: #00989b;
+    background-color: white;
+    
+    
+}
+
+/* DUCK 2 */
+
+.duck2 {
+    background-color: transparent; 
+    width: 80px;
+    height: 100px;
+    margin: auto auto 100px auto;
+    position: relative;
+    left: 350px;
+    animation: 8s linear infinite walkie;
+ 
+ }
+ 
+ .duck-body2 {
+     position: relative;
+     z-index: 6;
+ }
+ 
+ @keyframes stepyL {
+     5% {
+       transform: translateY(-11px);
+     }
+     50% {
+       transform: translateY(-11px);
+     }
+     55% {
+       transform: translateY(0px);
+     }
+     0% {
+        transform: translateY(0px);
+     }
+   }
+
+   @keyframes stepyR {
+    50% {
+      transform: translateY(-11px);
+    }
+    100% {
+      transform: translateY(-11px);
+    }
+    5% {
+      transform: translateY(0px);
+    }
+    45% {
+        transform: translateY(0px);
+     }
+  }
+
+  @keyframes walkie {
+    0.1% {
+      transform: translateX(0px) scaleX(1);
+      scaleX: 1;
+    }
+    50% {
+        transform: translateX(-700px) scaleX(1);
+      scaleX: 1;
+    }
+    50.1% {
+        transform: translateX(-700px) scaleX(-1);
+        scaleX: -1;
+    }
+    100% {
+        transform: translateX(0px) scaleX(-1);
+        scaleX: -1;
+      }
+  }
+
+  @keyframes headmove {
+    50% {
+      transform: translateX(-1.5px);
+    }
+    100% {
+      transform: translateX(-1.5px);
+    }
+    5% {
+      transform: translateX(0px);
+    }
+    45% {
+        transform: translateX(0px);
+     }
+  }
+ 
+ .duck-head2 {
+     background-color: #00989b;
+     position: relative;
+     width: 40px;
+     height: 33px;
+     left: 12px;
+     top: 9px;
+     border-radius: 19px;
+     z-index: 4;
+     animation: 0.3s linear infinite headmove;
+ }
+ 
+ .eye2 {
+     position: absolute;
+     background-color: black;
+     width: 5.5px;
+     height: 5.5px;
+     border-radius: 5px;
+     left: 20px;
+     top: 12px;
+     z-index: 5;
+ }
+ 
+ .beak2 {
+     position: absolute;
+     background-color: coral;
+     width: 23px;
+     height: 13px;
+     border-radius: 15px;
+     top: 12px;
+     left: -7.5px;  
+     z-index: 5;  
+ }
+ 
+ .neck2 {
+     position: absolute;
+     background-color: rgb(253, 195, 88);
+     width: 20px;
+     height: 20px;
+     top: 25px;
+     left: 22px;
+     z-index: 3;
+ }
+ 
+ .body2 {
+     position: relative;
+     background-color: #ff1a35;
+     width: 60px;
+     height: 43px;
+     border-radius: 27px;
+     top: 10px;
+     left: 10px;
+     z-index: 4;
+ }
+ 
+ 
+ .chest2 {
+     position: absolute;
+     background-color: #dd0025;
+     width: 40px;
+     height: 43px;
+     border-radius: 27px 26px 26px  27px ;
+     z-index: 4;
+ }
+ 
+ .tail2 {
+     position: absolute;
+     background-color: #e1000b;
+     width: 15px;
+     height: 20px;
+     left: 60px;
+     top: 50px;
+     border-radius: 0 15px 30px 0;
+     transform: rotate(-20deg);
+     z-index: 3;
+ }
+ 
+ .left-leg2 {
+     position: absolute;
+     background-color: coral;
+     width: 9px;
+     height: 25px;
+     left: 32px;
+     top: 65px;
+     z-index: 3;
+     animation: 0.3s linear infinite stepyL;
+ }
+ 
+ .left-foot2 {
+     position: absolute;
+     background-color: coral;
+     width: 20px;
+     height: 8px;
+     left: -10px;
+     top: 21px;
+     border-radius: 10px;
+     z-index: 3;
+ }
+ 
+ .right-leg2 {
+     position: absolute;
+     background-color: rgb(255, 165, 80);
+     width: 9px;
+     height: 25px;
+     left: 43px;
+     top: 65px;
+     z-index: 3;
+     animation: 0.3s linear infinite stepyR;
+ }
+ 
+ .right-foot2 {
+     position: absolute;
+     background-color: rgb(255, 165, 80);
+     width: 18px;
+     height: 8px;
+     left: -8px;
+     top: 21px;
+     border-radius: 10px;
+     z-index: 3;
+ }
+
+ /* DUCK 3*/
+
+.duck3 {
+   background-color: transparent; 
+   width: 80px;
+   height: 100px;
+   margin: -50px auto -57px 1000px;
+   position: relative;
+
+}
+
+.duck-body3 {
+    position: relative;
+    z-index: 6;
+    top: 6px
+}
+
+@keyframes breath {
+    15% {
+      transform: translateY(1.5px);
+    }
+    50% {
+      transform: translateY(1.5px);
+    }
+    65% {
+      transform: translateY(0px);
+    }
+  }
+
+.duck-head3 {
+    background-color: #00989b;
+    position: relative;
+    width: 40px;
+    height: 33px;
+    left: 10px;
+    top: 22px;
+    border-radius: 19px;
+    z-index: 7;
+    animation: 5s linear infinite breath;   
+}
+
+.eye3 {
+    position: absolute;
+    background-color: black;
+    width: 5.5px;
+    height: 2.2px;
+    border-radius: 5px;
+    left: 15px;
+    top: 16px;
+    z-index: 5;
+}
+/* .eyelid3 {
+    position: absolute;
+    background-color: #00989b;
+    width: 5.5px;
+    height: 5.5px;
+    border-radius: 5px;
+    left: 20px;
+    top: 13.5   px;
+    z-index: 5;
+} */
+
+.beak3 {
+    position: absolute;
+    background-color: coral;
+    width: 23px;
+    height: 13px;
+    border-radius: 15px;
+    top: 15px;
+    left: 25px;  
+    z-index: 5;  
+}
+
+.neck3 {
+    position: absolute;
+    background-color: rgb(253, 195, 88);
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    left: 22px;
+    z-index: 3;
+}
+
+.body3 {
+    position: relative;
+    background-color: #ff1a35;
+    width: 60px;
+    height: 43px;
+    border-radius: 27px;
+    top: 8px;
+    left: 10px;
+    z-index: 4;
+    animation: 5s linear infinite breath;
+}
 
 
+.chest3 {
+    position: absolute;
+    background-color: #dd0025;
+    width: 40px;
+    height: 43px;
+    border-radius: 27px 26px 26px  27px ;
+    z-index: 4;
+}
 
+.tail3 {
+    position: absolute;
+    background-color: #e1000b;
+    width: 15px;
+    height: 20px;
+    left: 60px;
+    top: 50px;
+    border-radius: 0 15px 30px 0;
+    transform: rotate(-20deg);
+    z-index: 3;
+    animation: 5s linear infinite breath;
+}
 
+.left-leg3 {
+    position: absolute;
+    background-color: coral;
+    width: 9px;
+    height: 25px;
+    left: 32px;
+    top: 65px;
+    z-index: 3;
+}
 
+.left-foot3 {
+    position: absolute;
+    background-color: coral;
+    width: 20px;
+    height: 8px;
+    left: -10px;
+    top: 21px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.right-leg3 {
+    position: absolute;
+    background-color: rgb(255, 165, 80);
+    width: 9px;
+    height: 25px;
+    left: 43px;
+    top: 65px;
+    z-index: 3;
+}
+
+.right-foot3 {
+    position: absolute;
+    background-color: rgb(255, 165, 80);
+    width: 18px;
+    height: 8px;
+    left: -6px;
+    top: 21px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.zzz {
+    position: absolute;
+    left: 960px;
+    top: 130px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: transparent;
+    border-radius: 5px;
+    padding: 6px 15px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.duck3:hover ~ .zzz {
+    color: #8876bf;
+    
+    
+}
 
 
 
@@ -950,6 +1351,30 @@ body {
     .name-icon {
         width: 270px;
     }
+
+    .duck3 {
+        position: absolute;
+        width: 70px;
+        height: 90px;
+        margin: -203px auto 120px 10px;
+        z-index: -3;
+     
+     }
+
+     .honk {
+        left: -100px;
+        width: 0;
+        height: 0;
+
+     }
+
+     .zzz {
+        left: -100px;
+        width: 0;
+        height: 0;
+
+
+     }
     
     /* .logo-icon {
         width: 50%;
