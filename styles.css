@@ -500,7 +500,7 @@ body {
 /* CV  */
 
 
-.cv-img {
+/* .cv-img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -525,6 +525,469 @@ body {
     max-width: 240px;
     margin: auto;
     text-align: center;
+} */
+
+
+/* .CVBOX {
+    position: relative;
+    display: inline-block;
+} */
+
+.phonesubstitute {
+    display: hidden;
+    height: 0;
+    width: 0;
+}
+
+h2 {
+    font-size: 22px;
+    color: #ffa217;
+}
+
+p {
+   font-size: 16px;
+   color: #1e8675;
+}
+
+.CVBOXES     {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.LOGROS {
+    width: 670px;
+    height: fit-content;
+    margin: 20px 10px;
+    padding: 30px 50px 30px 50px;
+    border: #00989b;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+
+}
+
+.cvbigtitle {
+    margin-bottom: 40px;
+}
+
+.Education {
+    margin: 80px auto 30px auto;
+}
+
+.cvtitle {
+    display: flex;
+    margin: 15px  auto ;
+
+}
+
+.cvdate {
+    font-size: 14px;
+    width: 130px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: #08bcb6;
+    color: white;
+}
+
+.cvname {
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -12px;
+    font-weight: bold;
+}
+
+.cvdescription {
+    font-size: 14px;
+    color: #08bcb6;
+    margin-left: 180px;
+    text-align: left;
+    margin-top: -30px;
+    margin-bottom: 40px;
+
+}
+
+.QUALITIES {
+    margin: 5px 15px;
+}
+
+.cvqualitie {
+    width: 200px;
+    height: 180px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #ddff75;
+}
+
+.cvqualitie2 {
+    width: 200px;
+    height: 165px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #b1ff75;
+}
+
+.cvqualitie3 {
+    width: 200px;
+    height: 190px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #75ffd3;
+}
+
+.cvqualitie4 {
+    width: 200px;
+    height: 128px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #4bfcfc;
+}
+
+.cvbigtitle2 {
+    font-size: 16px;
+    color: rgb(16, 109, 0);
+    margin: 0 10px 15px 0;
+    text-align: right;
+}
+
+.cvcualitiename {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.bar {
+    position: relative;
+    width: 180px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 3px auto 10px auto;
+}
+
+.barinside1 {
+    position: relative;
+    width: 170px;
+    height: 11px;
+    border-radius: 10px;
+    background-color: #ff1a35;
+    margin: auto;
+    top: 3.5px;
+}
+
+.barinside2 {
+    position: relative;
+    width: 155px;
+    height: 11px;
+    border-radius: 10px;
+    background-color: #ff1a35;
+    top: 3.5px;
+    left: 4px;
+}
+
+.barinside3 {
+    position: relative;
+    width: 85px;
+    height: 11px;
+    border-radius: 10px;
+    background-color: #ff1a35;
+    top: 3.5px;
+    left: 4px;
+}
+
+.cvanalogic {
+    display: flex;
+}
+
+.skills {
+    margin: auto;
+}
+
+.cvcualitiename2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.cvicon {
+    width: 80px;
+}
+
+.cvicon:hover {
+    width: 85px;
+    transition: 0.10s ease-in-out;
+}
+
+
+
+.socialskill {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.cv-img03 {
+    border-style: solid;
+    border-color: #1e4bff;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 45px 0px 0 0px;
+    width: auto;
+    height: 835px;
+}
+
+.SOFTWARESKILLS {
+    padding: 30px;
+    border-color: #00ac95;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 20px 15px 50px 15px;  
+    
+}
+
+.softwareparent {
+    display: flex;
+    justify-content: right;
+}
+
+.cv-img04 {
+    height: 686px;
+    width: auto;
+    margin: 15px 0px 0px 10px;
+
+}
+
+.cvsoftware {
+    color: #00ac95;
+    text-align: right;
+    margin-top: 37.2px;
+}
+
+.cvbigtitle3 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.cvhobbieicon {
+    width: 100px;
+    margin: -10px;
+}
+
+.cvhobbieicon:hover {
+    width: 105px;
+    transition: 0.10s ease-in-out;
+}
+
+
+/* DUCK 4 */
+
+.duck4 {
+   background-color: transparent; 
+   width: 80px;
+   height: 100px;
+   margin: auto auto 100px auto;
+   position: absolute;
+   left: 930px;
+   top: 350px;
+   overflow: hidden;
+   animation: 3s ease-in-out infinite dance2;
+
+}
+
+.duck-body4 {
+    position: relative;
+    z-index: 6;
+    animation: 1s linear infinite dance;
+}
+
+@keyframes dance2 {
+    0% {
+      transform: translateY(15px);
+    }
+    50% {
+      transform: translateY(15px);
+    }
+    54% {
+      transform: translateY(0px);
+    }
+    58% {
+        transform: translateY(15px);
+      }
+    63% {
+        transform: translateY(15px);
+      } 
+    67% {
+        transform: translateY(0px);
+      } 
+    70% {
+        transform: translateY(15px);
+      }
+
+    100% {
+        transform: translateY(15px);
+    }
+  }
+
+  @keyframes dance {
+    5% {
+      transform: translateY(2px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    55% {
+      transform: translateY(0px);
+    }
+  }
+
+.duck-head4 {
+    background-color: #00989b;
+    position: relative;
+    width: 40px;
+    height: 33px;
+    left: 12px;
+    top: 7px;
+    border-radius: 19px;
+    z-index: 4;
+    
+}
+
+.eye4 {
+    position: absolute;
+    background-color: black;
+    width: 5.5px;
+    height: 5.5px;
+    border-radius: 5px;
+    left: 20px;
+    top: 12px;
+    z-index: 5;
+}
+
+.beak4 {
+    position: absolute;
+    background-color: coral;
+    width: 23px;
+    height: 13px;
+    border-radius: 15px;
+    top: 12px;
+    left: -7.5px;  
+    z-index: 5;  
+}
+
+.neck4 {
+    position: absolute;
+    background-color: rgb(253, 195, 88);
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    left: 22px;
+    z-index: 3;
+}
+
+.body4 {
+    position: relative;
+    background-color: #ff1a35;
+    width: 60px;
+    height: 43px;
+    border-radius: 27px;
+    top: 8px;
+    left: 10px;
+    z-index: 4;
+}
+
+
+.chest4 {
+    position: absolute;
+    background-color: #dd0025;
+    width: 40px;
+    height: 43px;
+    border-radius: 27px 26px 26px  27px ;
+    z-index: 4;
+}
+
+.tail4 {
+    position: absolute;
+    background-color: #e1000b;
+    width: 15px;
+    height: 20px;
+    left: 60px;
+    top: 50px;
+    border-radius: 0 15px 30px 0;
+    transform: rotate(-20deg);
+    z-index: 3;
+}
+
+.left-leg4 {
+    position: absolute;
+    background-color: coral;
+    width: 9px;
+    height: 25px;
+    left: 32px;
+    top: 65px;
+    z-index: 3;
+}
+
+.left-foot4 {
+    position: absolute;
+    background-color: coral;
+    width: 20px;
+    height: 8px;
+    left: -10px;
+    top: 21px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.right-leg4 {
+    position: absolute;
+    background-color: rgb(255, 165, 80);
+    width: 9px;
+    height: 25px;
+    left: 43px;
+    top: 65px;
+    z-index: 3;
+}
+
+.right-foot4 {
+    position: absolute;
+    background-color: rgb(255, 165, 80);
+    width: 18px;
+    height: 8px;
+    left: -6px;
+    top: 21px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.honk4 {
+    position: absolute;
+    left: 830px;
+    top: 320px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0px 10px;
+    border-color: transparent;
+    border-width: 1px;
+    background-color: transparent;
+    border-style: solid;
+    transition: 0.5s ease-in-out;
+    z-index: 5;
+
+}
+
+.duck4:hover ~ .honk4 {
+    color: #00989b;
+    border-color: #00989b;
+    background-color: white;
+    
+    
 }
 
 /* ABOUT ME */
@@ -548,6 +1011,7 @@ body {
 
 .bio {
     font-size: 14px;
+    color: #1e8675;
     font-weight: lighter;
     width: 620px;
     margin: 12px;
@@ -744,6 +1208,7 @@ body {
     position: relative;
     left: 350px;
     animation: 8s linear infinite walkie;
+    overflow: hidden;
  
  }
  
@@ -1140,6 +1605,7 @@ body {
     margin: auto;
     color: teal;
     margin-top: 15px;
+    font-weight: lighter;
 }
 
 .artist-type {
@@ -1149,6 +1615,7 @@ body {
     color: #66c4b2;
     margin-top: 10px;
     font-style: italic;
+    font-weight: lighter;
 }
 
 .artist_group {
@@ -1358,7 +1825,16 @@ body {
         height: 90px;
         margin: -203px auto 120px 10px;
         z-index: -3;
+        overflow: hidden;
      
+     }
+
+     .duck2 {
+        overflow: hidden;
+     }
+
+     .duckbody2 {
+        overflow: hidden;
      }
 
      .honk {
@@ -1496,6 +1972,26 @@ body {
            width: 100%;
         max-width: 140px;
     }
+
+    .CVBOXES {
+        width: 0;
+        height: 0;
+        position: absolute;
+        color: transparent;
+        background-color: transparent;
+        display: none;
+    }
+
+    .phonesubstitute {
+        display: block;
+        margin: auto;
+        width: 380px;
+        height: auto;
+
+    }
+
+
+
 
     .theother {
         max-width: 300px;
