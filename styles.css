@@ -19,22 +19,9 @@ body {
     overflow-x: hidden;
 }
 
-/* PANEL */
 
-.panel-img {
-    margin: -30px;
-    width: 1300px;
-    border-radius: 0 0 30px 30px;
 
-    position: absolute;
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
 
-.panel-container {
-    text-align: center;
-}
 
 /* HAMBURGUER */
 
@@ -227,29 +214,21 @@ body {
 
 
 
-.name {
-    text-align: center;
-    font-size: 50px;
-    color: #00b2d5;
-
-}
-
 .logo-icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -8px
 }
 
 .avatar-icon {
     width: 120px;
-    margin-left: -40px;
 
 }
 
 .name-icon {
     width: 300px;
     margin-top: 20px;
-    margin-left: -12px;
 }
 
 
@@ -257,13 +236,25 @@ body {
 .social-icons {
 
     display: grid;
-    font-size: 2rem;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     align-items: center;
     gap: 10px;
     margin-top: 15px;
 }
+
+.other-icons {
+    width: 35px;
+    background-color: #46bca8;
+    border-radius: 8px;
+    transition: 0.15s ease-in-out;
+}
+
+.other-icons:hover {
+    background-color: #87d2c5;
+}
+
+
 
 .etsy-icon {
     width: 60px;
@@ -285,17 +276,7 @@ body {
 
 }
 
-.other-icons {
-    width: 35px;
-    padding: 1px;
-    background-color: #46bca8;
-    border-radius: 8px;
-    transition: 0.15s ease-in-out;
-}
 
-.other-icons:hover {
-    background-color: #87d2c5;
-}
 
 .button {
     background-color: #46bca8;
@@ -305,10 +286,47 @@ body {
     height: 35px;
     border-radius: 30px;
     color: white;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     transition: 0.15s ease-in-out;
     letter-spacing: 1px;
 }
+
+
+
+
+
+
+
+
+/* MAIN PAGE */
+
+/* ENLARGE */
+
+.invisible-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    transition: all 0.25s ease-in-out; 
+    backdrop-filter: blur(2px);
+}
+
+.invisible-box .img {
+    height: 100%;
+    box-shadow: 0px 10px 25px -5px  #8876bf, 0px 8px 10px -6px transparent  ;
+}
+
+.invisible-box .imgC {
+    height: 570px;
+    box-shadow: 0px 10px 25px -5px  #8876bf, 0px 8px 10px -6px transparent  ;
+}
+
+.parent {
+    position: relative;
+}
+
+
+
 
 /* CONTACT*/
 /* .contact-me-box {
@@ -319,8 +337,6 @@ body {
     margin: auto;
     text-align: center;
     display: flex;
-    
-
 } */
 
 /* #submit {
@@ -333,8 +349,7 @@ body {
     font-weight: bold;
     color: white;
     transition: 0.15s ease-in-out;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 
 .box {
@@ -346,8 +361,6 @@ body {
     border-radius: 8px;
     margin-top: 30px;
     padding: 10px;
-    
-
 }
 
 .box::placeholder {
@@ -371,6 +384,7 @@ body {
     color: #c0b8ff;
     margin: 30px auto 30px auto;
 } */
+
 
 .theother {
     background-color: #93d9d7;
@@ -398,21 +412,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .copybutton {
     border: none; 
     background-color: transparent;
-
 }
 
 #copyicon {
     width: 25px;
     margin: 20px 0 0 10px;
     opacity: 60%;
-    filter: invert(1) sepia(0) hue-rotate(0deg) saturate(0%) contrast(100);
-    
+    filter: invert(1) sepia(0) hue-rotate(0deg) saturate(0%) contrast(100);  
 }
 
 #copyicon:hover {
@@ -421,10 +432,11 @@ body {
 
 
 
+
+
 /* PAGES */
 #projects {
     text-align: center;
-
 }
 
 .PROJECT {
@@ -432,34 +444,10 @@ body {
     font-size: 30px;
     margin-top: 30px;
     margin: auto;
-
-
-
-}
-
-.project-tile {
-    margin-top: 50px;
-}
-
-.subproject-title {
-    font-size: 30px;
-    color: #fd535c;
-    margin-top: 50px;
-
 }
 
 
 /* REEL */
-/* 
-.link-to-reel {
-    font-size: 25px;
-    color: rgb(20, 140, 86);
-    text-decoration: none;
-    text-transform: uppercase;
-
-
-} */
-
 .reel {
     width: 100%;
     max-width: 1000px;
@@ -468,11 +456,12 @@ body {
     margin: auto;
     text-align: center;
     display: flex;
-
 }
 
-/* CONCEPT AND BG */
 
+
+
+/* CONCEPT AND BG */
 .concept-bg-button {
     background-color: #08bcb6;
     text-decoration: none;
@@ -484,7 +473,6 @@ body {
     color: white;
     margin: auto 5px;
     transition: 0.15s ease-in-out;
-
 }
 
 .hover-keep {
@@ -498,41 +486,6 @@ body {
 
 
 /* CV  */
-
-
-/* .cv-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.cv-img01 {
-    width: 100%;
-    max-width: 250px;
-    margin: auto;
-    text-align: center;
-}
-.cv-img02 {
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-    text-align: center;
-}
-.cv-img03 {
-       width: 100%;
-    max-width: 240px;
-    margin: auto;
-    text-align: center;
-} */
-
-
-/* .CVBOX {
-    position: relative;
-    display: inline-block;
-} */
-
 .phonesubstitute {
     display: hidden;
     height: 0;
@@ -564,7 +517,6 @@ p {
     border-style: solid;
     border-radius: 8px;
     border-width: 1px;
-
 }
 
 .cvbigtitle {
@@ -578,7 +530,6 @@ p {
 .cvtitle {
     display: flex;
     margin: 15px  auto ;
-
 }
 
 .cvdate {
@@ -746,8 +697,7 @@ p {
     border-style: solid;
     border-width: 1px;
     border-radius: 8px;
-    margin: 20px 15px 50px 15px;  
-    
+    margin: 20px 15px 50px 15px;     
 }
 
 .softwareparent {
@@ -759,7 +709,6 @@ p {
     height: 686px;
     width: auto;
     margin: 15px 0px 0px 10px;
-
 }
 
 .cvsoftware {
@@ -784,8 +733,9 @@ p {
 }
 
 
-/* DUCK 4 */
 
+
+/* DUCK 4 */
 .duck4 {
    background-color: transparent; 
    width: 80px;
@@ -853,8 +803,7 @@ p {
     left: 12px;
     top: 7px;
     border-radius: 19px;
-    z-index: 4;
-    
+    z-index: 4;  
 }
 
 .eye4 {
@@ -967,7 +916,7 @@ p {
 .honk4 {
     position: absolute;
     left: 830px;
-    top: 320px;
+    top: 310px;
     font-size: 14px;
     font-weight: lighter;
     color: transparent;
@@ -979,26 +928,28 @@ p {
     border-style: solid;
     transition: 0.5s ease-in-out;
     z-index: 5;
+    animation: 3s ease-in-out infinite dance2;
 
 }
 
 .duck4:hover ~ .honk4 {
     color: #00989b;
     border-color: #00989b;
-    background-color: white;
-    
-    
+    background-color: white;   
 }
 
-/* ABOUT ME */
 
+
+
+
+
+/* ABOUT ME */
 .aboutme {
     display: flex;
     flex-direction: row;
     margin: 50px auto 50px auto;
     align-items: center;
     justify-content: center;
-
 }
  
 .profilepic {
@@ -1006,7 +957,6 @@ p {
     height: fit-content;
     border-radius: 15px;
     margin: 10px;
-
 }
 
 .bio {
@@ -1016,8 +966,10 @@ p {
     width: 620px;
     margin: 12px;
     text-align: justify;
-  text-justify: inter-word;
+    text-justify: inter-word;
 }
+
+
 
 /* DUCK */
 .duckref {
@@ -1034,7 +986,6 @@ p {
    height: 100px;
    margin: auto auto 100px auto;
    position: relative;
-
 }
 
 .duck-body {
@@ -1187,7 +1138,6 @@ p {
     background-color: transparent;
     border-style:solid;
     transition: 0.5s ease-in-out;
-
 }
 
 .duck:hover ~ .honk {
@@ -1198,8 +1148,15 @@ p {
     
 }
 
-/* DUCK 2 */
 
+
+
+/* DUCK 2 */
+.duckcontainer2 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
 .duck2 {
     background-color: transparent; 
     width: 80px;
@@ -1208,8 +1165,6 @@ p {
     position: relative;
     left: 350px;
     animation: 8s linear infinite walkie;
-    overflow: hidden;
- 
  }
  
  .duck-body2 {
@@ -1402,6 +1357,9 @@ p {
      z-index: 3;
  }
 
+
+
+
  /* DUCK 3*/
 
 .duck3 {
@@ -1497,7 +1455,6 @@ p {
     animation: 5s linear infinite breath;
 }
 
-
 .chest3 {
     position: absolute;
     background-color: #dd0025;
@@ -1572,14 +1529,14 @@ p {
     border-radius: 5px;
     padding: 6px 15px;
     transition: 0.5s ease-in-out;
-
 }
 
 .duck3:hover ~ .zzz {
-    color: #8876bf;
-    
-    
+    color: #8876bf;    
 }
+
+
+
 
 
 
@@ -1588,15 +1545,6 @@ p {
     width: 120px;
     text-align: center;
 }
-
-
-/* .temp_logo {
-
-    padding: 60px;
-    background-color: teal;
-    border-radius: 200px;
-    margin: auto;
-} */
 
 .artist_name {
     width: 130px;
@@ -1626,7 +1574,6 @@ p {
     padding: 20px;
     border-radius: 20px;
     transition: 0.15s ease-in-out;
-
 }
 
 .artist_group:hover {
@@ -1642,13 +1589,15 @@ p {
     gap: 16px;
     max-width: 1000px;
     margin: 65px auto 0 auto;
-    
-
 }
 
 .one-line {
     margin: 18px auto;
 }
+
+
+
+
 
 /* IMGS  */
 .imgs {
@@ -1662,7 +1611,6 @@ p {
     gap: 10px;
     max-width: 1000px;
     margin: 50px auto auto auto;
-
 }
 
 .imgs .img {
@@ -1691,9 +1639,9 @@ p {
 
 @media (max-width: 800px) {
     #photos {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1 ;
     }
 }
 
@@ -1753,33 +1701,10 @@ p {
     }
 }
 
-/* ENLARGE */
 
-.invisible-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    transition: all 0.25s ease-in-out; 
-    backdrop-filter: blur(2px);
-}
 
-.invisible-box .img {
-    height: 100%;
-    box-shadow: 0px 10px 25px -5px  #8876bf, 0px 8px 10px -6px transparent  ;
-}
-
-.invisible-box .imgC {
-    height: 570px;
-    box-shadow: 0px 10px 25px -5px  #8876bf, 0px 8px 10px -6px transparent  ;
-}
-
-.parent {
-    position: relative;
-}
 
 /* FOOTER */
-
 .footer {
     color: #8dc5c6;
     font-size: 10px;
@@ -1794,10 +1719,25 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PHONE MEDIA */
 
 @media only screen and (max-width: 600px) {
 
+
+   /* HEAD */
     .head {
         display: flex;
         flex-direction: row;
@@ -1812,80 +1752,55 @@ p {
     }
     .avatar-icon {
         width: 100px;
-    
-    
     }
+
     .name-icon {
         width: 270px;
     }
 
-    .duck3 {
-        position: absolute;
-        width: 70px;
-        height: 90px;
-        margin: -203px auto 120px 10px;
-        z-index: -3;
-        overflow: hidden;
-     
-     }
-
-     .duck2 {
-        overflow: hidden;
-     }
-
-     .duckbody2 {
-        overflow: hidden;
-     }
-
-     .honk {
-        left: -100px;
-        width: 0;
-        height: 0;
-
-     }
-
-     .zzz {
-        left: -100px;
-        width: 0;
-        height: 0;
-
-
-     }
     
-    /* .logo-icon {
-        width: 50%;
-        margin-left: 30px;
-    } */
     #navbar {
         left: 50px;
         top: 80px;
     }
     .dropdown {
         position: relative;
-        top: 260px;
-        left: -10%;
-
-
+        top: 250px;
+        left: -40px;
     }
-    .button {
+
+
+    .contact_link {
         position: relative;
-        top: 290px;
-        left: -35%;
-
+        top: 280px;
+        left: -54px;
     }
+
     .etsy   {
         position: relative;
-        top: -45px; 
-        left: 6%;   
-
+        top: -43px; 
+        left: 30px;       
     }
     .social-icons {
         position: relative;
         top: -60px;
-        left: 9%;
+        left: 45px;
     }
 
 
+    .duck3 {
+        position: absolute;
+        left: -950px;
+     }
+
+     .zzz {
+        width: 30px;
+        left: 100px;
+        top: -35px;
+     }
+
+  
+/* ABOUT ME */
     .aboutme {
         flex-direction: column;
         margin-bottom: 50px;
@@ -1898,9 +1813,16 @@ p {
         width: 270px;
     }
 
+    .honk {
+        left: 85px;
+        top: 600px;
+     }
+
     
+/* CONTACT ME */
     .theother {
         background-color: transparent;
+        max-width: 300px;
     }
     
     .you_can {
@@ -1911,27 +1833,24 @@ p {
         font-size: 25px;
         margin-left: 0;
     }
+
     
     #copyicon {
         width: 20px;
         opacity: 50%;
         filter: invert(0);   
-
     }
-
     #copyicon:hover {
         opacity: 80%;
     }
 
 
-
+/* PROJECTS */
     #projects {
         position: relative;
         top: -80px;
     }
     .imgs {
-        /* Prevent vertical gaps */
-    
         -webkit-column-count: 1;
         -webkit-gap: 10px;
         -moz-column-count: 1;
@@ -1940,38 +1859,9 @@ p {
         gap: 10px;
         max-width: 1000px;
         margin: 50px auto auto auto;
-    
-    }
-    
-    .imgs .img {
-        border-radius: 10px;
-    
-        /* Just in case there are inline attributes */
-        width: 100% !important;
-        height: auto !important;
-    }
-    
-    @media (max-width: 800px) {
-        #photos {
-            -moz-column-count: 1;
-            -webkit-column-count: 1;
-            column-count: 1;
-        }
     }
 
-    .cv-img01 {
-        width: 100%;
-        max-width: 150px;
-    }
-    .cv-img02 {
-        width: 100%;
-        max-width: 350px;
-
-    }
-    .cv-img03 {
-           width: 100%;
-        max-width: 140px;
-    }
+    /* CV */
 
     .CVBOXES {
         width: 0;
@@ -1987,22 +1877,26 @@ p {
         margin: auto;
         width: 380px;
         height: auto;
-
     }
 
-
-
-
-    .theother {
-        max-width: 300px;
-
+    .duck4 {
+        left: 280px;
+        top: 70px
     }
+
+    .honk4 {
+        padding: 7px;
+        font-size: 10px;
+        top: 30px;
+        left: 310px;
+        border-radius: 10px 10px 10px 0px;;
+    }
+
+/* FOOTER */
 
     .footer {
         position: relative;
         top: 50px;
-    }
-    
-
+    }  
 }
 
