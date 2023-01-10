@@ -506,6 +506,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .LOGROS {
@@ -954,7 +956,6 @@ p {
  
 .profilepic {
     width: 250px;
-    height: fit-content;
     border-radius: 15px;
     margin: 10px;
 }
