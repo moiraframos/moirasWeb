@@ -748,6 +748,7 @@ p {
    top: 350px;
    overflow: hidden;
    animation: 3s ease-in-out infinite dance2;
+   z-index: 5;
 
 }
 
@@ -917,8 +918,8 @@ p {
 
 .honk4 {
     position: absolute;
-    left: 830px;
-    top: 310px;
+    left: 835px;
+    top: 315px;
     font-size: 14px;
     font-weight: lighter;
     color: transparent;
@@ -929,15 +930,14 @@ p {
     background-color: transparent;
     border-style: solid;
     transition: 0.5s ease-in-out;
-    z-index: 5;
+    z-index: 10;
     animation: 3s ease-in-out infinite dance2;
-
 }
 
 .duck4:hover ~ .honk4 {
     color: #00989b;
     border-color: #00989b;
-    background-color: white;   
+    background-color: white;
 }
 
 
@@ -1522,18 +1522,22 @@ p {
 
 .zzz {
     position: absolute;
-    left: 960px;
+    left: 940px;
     top: 130px;
     font-size: 14px;
     font-weight: lighter;
     color: transparent;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 5px;
     padding: 6px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
     transition: 0.5s ease-in-out;
 }
 
 .duck3:hover ~ .zzz {
-    color: #8876bf;    
+    color: #8876bf;  
+    border-color: #8876bf;  
 }
 
 
@@ -1874,15 +1878,15 @@ p {
     }
 
     .phonesubstitute {
-        display: block;
+        /* display: block; */
         margin: auto;
-        width: 380px;
+        width: 350px;
         height: auto;
     }
 
     .duck4 {
         left: 280px;
-        top: 70px
+        top: 60px
     }
 
     .honk4 {
