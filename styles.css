@@ -19,6 +19,17 @@ body {
     overflow-x: hidden;
 }
 
+:root {
+    --headcolor: #00ee1c;
+    --bodycolor: #ff0073;
+    --chestcolor: #df004e;
+    --beackcolor: #FF6A00;
+    --footBcolor: #FF5000;
+    --footFcolor: #FF9400;
+    --eyecolor: black;
+    --neckcolor: rgb(253, 195, 88);
+}
+
 
 
 
@@ -799,7 +810,7 @@ p {
   }
 
 .duck-head4 {
-    background-color: #00989b;
+    background-color: var(--headcolor);
     position: relative;
     width: 40px;
     height: 33px;
@@ -811,7 +822,7 @@ p {
 
 .eye4 {
     position: absolute;
-    background-color: black;
+    background-color: var(--eyecolor);
     width: 5.5px;
     height: 5.5px;
     border-radius: 5px;
@@ -822,7 +833,7 @@ p {
 
 .beak4 {
     position: absolute;
-    background-color: coral;
+    background-color: var(--beackcolor);
     width: 23px;
     height: 13px;
     border-radius: 15px;
@@ -833,7 +844,7 @@ p {
 
 .neck4 {
     position: absolute;
-    background-color: rgb(253, 195, 88);
+    background-color: var(--neckcolor);
     width: 20px;
     height: 20px;
     top: 25px;
@@ -843,7 +854,7 @@ p {
 
 .body4 {
     position: relative;
-    background-color: #ff1a35;
+    background-color: var(--bodycolor);
     width: 60px;
     height: 43px;
     border-radius: 27px;
@@ -855,7 +866,7 @@ p {
 
 .chest4 {
     position: absolute;
-    background-color: #dd0025;
+    background-color: var(--chestcolor);
     width: 40px;
     height: 43px;
     border-radius: 27px 26px 26px  27px ;
@@ -864,7 +875,7 @@ p {
 
 .tail4 {
     position: absolute;
-    background-color: #e1000b;
+    background-color: var(--chestcolor);
     width: 15px;
     height: 20px;
     left: 60px;
@@ -876,7 +887,7 @@ p {
 
 .left-leg4 {
     position: absolute;
-    background-color: coral;
+    background-color: var(--footBcolor);
     width: 9px;
     height: 25px;
     left: 32px;
@@ -886,7 +897,7 @@ p {
 
 .left-foot4 {
     position: absolute;
-    background-color: coral;
+    background-color: var(--footBcolor);
     width: 20px;
     height: 8px;
     left: -10px;
@@ -897,7 +908,7 @@ p {
 
 .right-leg4 {
     position: absolute;
-    background-color: rgb(255, 165, 80);
+    background-color: var(--footFcolor);
     width: 9px;
     height: 25px;
     left: 43px;
@@ -907,7 +918,7 @@ p {
 
 .right-foot4 {
     position: absolute;
-    background-color: rgb(255, 165, 80);
+    background-color: var(--footFcolor);
     width: 18px;
     height: 8px;
     left: -6px;
@@ -1008,7 +1019,7 @@ p {
   }
 
 .duck-head {
-    background-color: #00989b;
+    background-color: var(--headcolor);
     position: relative;
     width: 40px;
     height: 33px;
@@ -1020,7 +1031,7 @@ p {
 
 .eye {
     position: absolute;
-    background-color: black;
+    background-color: var(--eyecolor);
     width: 5.5px;
     height: 5.5px;
     border-radius: 5px;
@@ -1031,7 +1042,7 @@ p {
 
 .beak {
     position: absolute;
-    background-color: coral;
+    background-color: var(--beackcolor);
     width: 23px;
     height: 13px;
     border-radius: 15px;
@@ -1042,7 +1053,7 @@ p {
 
 .neck {
     position: absolute;
-    background-color: rgb(253, 195, 88);
+    background-color: var(--neckcolor);
     width: 20px;
     height: 20px;
     top: 25px;
@@ -1052,7 +1063,7 @@ p {
 
 .body {
     position: relative;
-    background-color: #ff1a35;
+    background-color: var(--bodycolor);
     width: 60px;
     height: 43px;
     border-radius: 27px;
@@ -1064,7 +1075,7 @@ p {
 
 .chest {
     position: absolute;
-    background-color: #dd0025;
+    background-color: var(--chestcolor);
     width: 40px;
     height: 43px;
     border-radius: 27px 26px 26px  27px ;
@@ -1073,7 +1084,7 @@ p {
 
 .tail {
     position: absolute;
-    background-color: #e1000b;
+    background-color: var(--chestcolor);
     width: 15px;
     height: 20px;
     left: 60px;
@@ -1085,7 +1096,7 @@ p {
 
 .left-leg {
     position: absolute;
-    background-color: coral;
+    background-color: var(--footBcolor);
     width: 9px;
     height: 25px;
     left: 32px;
@@ -1095,7 +1106,7 @@ p {
 
 .left-foot {
     position: absolute;
-    background-color: coral;
+    background-color: var(--footBcolor);
     width: 20px;
     height: 8px;
     left: -10px;
@@ -1106,7 +1117,7 @@ p {
 
 .right-leg {
     position: absolute;
-    background-color: rgb(255, 165, 80);
+    background-color: var(--footFcolor);
     width: 9px;
     height: 25px;
     left: 43px;
@@ -1116,7 +1127,7 @@ p {
 
 .right-foot {
     position: absolute;
-    background-color: rgb(255, 165, 80);
+    background-color: var(--footFcolor);
     width: 18px;
     height: 8px;
     left: -6px;
@@ -1238,7 +1249,7 @@ p {
   }
  
  .duck-head2 {
-     background-color: #00989b;
+     background-color: var(--headcolor);
      position: relative;
      width: 40px;
      height: 33px;
@@ -1251,7 +1262,7 @@ p {
  
  .eye2 {
      position: absolute;
-     background-color: black;
+     background-color: var(--eyecolor);
      width: 5.5px;
      height: 5.5px;
      border-radius: 5px;
@@ -1262,7 +1273,7 @@ p {
  
  .beak2 {
      position: absolute;
-     background-color: coral;
+     background-color: var(--beackcolor);
      width: 23px;
      height: 13px;
      border-radius: 15px;
@@ -1273,7 +1284,7 @@ p {
  
  .neck2 {
      position: absolute;
-     background-color: rgb(253, 195, 88);
+     background-color: var(--neckcolor);
      width: 20px;
      height: 20px;
      top: 25px;
@@ -1283,7 +1294,7 @@ p {
  
  .body2 {
      position: relative;
-     background-color: #ff1a35;
+     background-color: var(--bodycolor);
      width: 60px;
      height: 43px;
      border-radius: 27px;
@@ -1295,7 +1306,7 @@ p {
  
  .chest2 {
      position: absolute;
-     background-color: #dd0025;
+     background-color: var(--chestcolor);
      width: 40px;
      height: 43px;
      border-radius: 27px 26px 26px  27px ;
@@ -1304,7 +1315,7 @@ p {
  
  .tail2 {
      position: absolute;
-     background-color: #e1000b;
+     background-color: var(--chestcolor);
      width: 15px;
      height: 20px;
      left: 60px;
@@ -1316,7 +1327,7 @@ p {
  
  .left-leg2 {
      position: absolute;
-     background-color: coral;
+     background-color: var(--footBcolor);
      width: 9px;
      height: 25px;
      left: 32px;
@@ -1327,7 +1338,7 @@ p {
  
  .left-foot2 {
      position: absolute;
-     background-color: coral;
+     background-color: var(--footBcolor);
      width: 20px;
      height: 8px;
      left: -10px;
@@ -1338,7 +1349,7 @@ p {
  
  .right-leg2 {
      position: absolute;
-     background-color: rgb(255, 165, 80);
+     background-color: var(--footFcolor);
      width: 9px;
      height: 25px;
      left: 43px;
@@ -1349,7 +1360,7 @@ p {
  
  .right-foot2 {
      position: absolute;
-     background-color: rgb(255, 165, 80);
+     background-color: var(--footFcolor);
      width: 18px;
      height: 8px;
      left: -8px;
@@ -1391,7 +1402,7 @@ p {
   }
 
 .duck-head3 {
-    background-color: #00989b;
+    background-color: var(--headcolor);
     position: relative;
     width: 40px;
     height: 33px;
@@ -1404,7 +1415,7 @@ p {
 
 .eye3 {
     position: absolute;
-    background-color: black;
+    background-color: var(--eyecolor);
     width: 5.5px;
     height: 2.2px;
     border-radius: 5px;
@@ -1425,7 +1436,7 @@ p {
 
 .beak3 {
     position: absolute;
-    background-color: coral;
+    background-color: var(--beackcolor);
     width: 23px;
     height: 13px;
     border-radius: 15px;
@@ -1436,7 +1447,7 @@ p {
 
 .neck3 {
     position: absolute;
-    background-color: rgb(253, 195, 88);
+    background-color: var(--headcolor);
     width: 20px;
     height: 20px;
     top: 25px;
@@ -1446,7 +1457,7 @@ p {
 
 .body3 {
     position: relative;
-    background-color: #ff1a35;
+    background-color: var(--bodycolor);
     width: 60px;
     height: 43px;
     border-radius: 27px;
@@ -1458,7 +1469,7 @@ p {
 
 .chest3 {
     position: absolute;
-    background-color: #dd0025;
+    background-color: var(--chestcolor);
     width: 40px;
     height: 43px;
     border-radius: 27px 26px 26px  27px ;
@@ -1467,7 +1478,7 @@ p {
 
 .tail3 {
     position: absolute;
-    background-color: #e1000b;
+    background-color: var(--chestcolor);
     width: 15px;
     height: 20px;
     left: 60px;
@@ -1480,7 +1491,7 @@ p {
 
 .left-leg3 {
     position: absolute;
-    background-color: coral;
+    background-color: var(--footBcolor);
     width: 9px;
     height: 25px;
     left: 32px;
@@ -1490,7 +1501,7 @@ p {
 
 .left-foot3 {
     position: absolute;
-    background-color: coral;
+    background-color: var(--footBcolor);
     width: 20px;
     height: 8px;
     left: -10px;
@@ -1501,7 +1512,7 @@ p {
 
 .right-leg3 {
     position: absolute;
-    background-color: rgb(255, 165, 80);
+    background-color: var(--footFcolor);
     width: 9px;
     height: 25px;
     left: 43px;
@@ -1511,7 +1522,7 @@ p {
 
 .right-foot3 {
     position: absolute;
-    background-color: rgb(255, 165, 80);
+    background-color: var(--footFcolor);
     width: 18px;
     height: 8px;
     left: -6px;
