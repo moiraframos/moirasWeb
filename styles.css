@@ -1686,12 +1686,12 @@ p {
     column-count: 1;
     gap: 10px;
     max-width: 1000px;
-    margin: 50px auto auto auto;
+    margin: 30px auto auto auto;
 
 }
 
 .imgsC .imgC {
-    border-radius: 10px;
+    border-radius: 0px;
 
     /* Just in case there are inline attributes */
     width: 100% !important;
