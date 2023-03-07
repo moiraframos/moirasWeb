@@ -37,6 +37,7 @@ body {
 /* HAMBURGUER */
 
 #hamburger {
+    margin-top: 12px;
     width: 38px;
     height: 25px;
     position: relative;
@@ -56,7 +57,7 @@ body {
     position: absolute;
     height: 6px;
     width: 50%;
-    background: #ffa217;
+    background: #ffb700;
     opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -69,7 +70,7 @@ body {
 }
 
 #hamburger.open span {
-    background: #ffca2b;
+    background: #ffb700;
 }
 
 #hamburger span:nth-child(even) {
@@ -168,7 +169,7 @@ body {
     flex-direction: column;
     font-size: 0.8rem;
     align-items: center;
-    background-color: #00adaf;
+    background-color: #91d1c7;
     border-radius: 15px;
     transition: visibility 0s, opacity 0.5s ease-in-out;
     z-index: 1001;
@@ -188,18 +189,18 @@ body {
     text-decoration: none;
     text-align: center;
     color: #ffffff;
-    background-color: #009fa2;
+    background-color: #6abcae;
     padding: 10px 0;
     width: 165px;
     margin: auto;
     float: left;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
 
 }
 
 .nav-link:hover {
-    background-color: #08bcb6;
+    background-color: #87d2c5;
 }
 
 #hamburger:hover>span {
@@ -207,7 +208,7 @@ body {
 }
 
 .button:hover {
-    background-color: #87d2c5;
+    background-color: #afe6dd;
 }
 
 /* HEAD */
@@ -229,12 +230,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -8px
 }
 
 .avatar-icon {
     width: 120px;
-
 }
 
 .name-icon {
@@ -245,7 +244,6 @@ body {
 
 
 .social-icons {
-
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -256,42 +254,44 @@ body {
 
 .other-icons {
     width: 35px;
-    background-color: #46bca8;
+    background-color: #a5e0d0;
     border-radius: 8px;
     transition: 0.15s ease-in-out;
 }
 
 .other-icons:hover {
-    background-color: #87d2c5;
+    background-color: #c7f2eb;
 }
 
 
 
 .etsy-icon {
     width: 60px;
-    margin-top: 20px;
-    padding: 1px;
-    background-color: #ffc518;
+    margin-top: 22px;
+    margin-bottom: -10px;
     border-radius: 40px;
     transition: 0.15s ease-in-out;
 }
 
-.etsy-icon:hover {
-    background-color: #ffd79a;
-}
+
 
 .etsy-text {
     font-size: 13px;
     text-align: center;
     letter-spacing: 0.5px;
+    color: #dca500;
+    transition: 0.15s ease-in-out;
+}
 
+.etsy:hover > .etsy-text {
+    color: #ffd147;
 }
 
 
-
 .button {
-    background-color: #46bca8;
+    background-color: #8bcfbd;
     text-decoration: none;
+    margin-top: 13px;
     border: 0;
     width: 150px;
     height: 35px;
@@ -416,7 +416,7 @@ body {
 .my_email {
     font-size: 30px;
     margin: 15px 0 0 45px;
-    color:rgb(45, 133, 157);
+    color:rgb(45, 157, 131);
     font-weight: lighter;
 }
 .copydiv {
@@ -474,7 +474,7 @@ body {
 
 /* CONCEPT AND BG */
 .concept-bg-button {
-    background-color: #08bcb6;
+    background-color: #08bc9b;
     text-decoration: none;
     border: 0;
     width: 200px;
@@ -487,7 +487,7 @@ body {
 }
 
 .hover-keep {
-    background-color: #90e1de;
+    background-color: #90e1cd;
 }
 
 .concept-bg-button:hover {
@@ -718,6 +718,7 @@ p {
     justify-content: right;
 }
 
+
 .cv-img04 {
     height: 686px;
     width: auto;
@@ -727,7 +728,7 @@ p {
 .cvsoftware {
     color: #00ac95;
     text-align: right;
-    margin-top: 37.2px;
+    margin-top: 32.8px;
 }
 
 .cvbigtitle3 {
@@ -1556,6 +1557,28 @@ p {
 
 
 
+/* PROJECTS */
+
+.project_game {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100PX 50px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_group01 {  
+    margin: 50px 200px;
+}
+
+.project_group02 {
+    margin: 40px;
+}
+
+
+
+
+
 /* OTHER ARTISTS  */
 .artist-icon {
     width: 120px;
@@ -1765,15 +1788,14 @@ p {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 50px;
         max-width: 400px;
-        margin: 10px auto 20px auto;
         position: relative;
-        top: -40px;
+        top: -70px;
+        margin-bottom: -20px;
     }
-    .avatar-icon {
+    /* .avatar-icon {
         width: 100px;
-    }
+    } */
 
     .name-icon {
         width: 270px;
@@ -1786,30 +1808,35 @@ p {
     }
     .dropdown {
         position: relative;
-        top: 250px;
-        left: -40px;
+        top: 250.5px;
+        left: -30px;
     }
 
 
     .contact_link {
         position: relative;
-        top: 280px;
-        left: -54px;
+        top: 272px;
+        left: -53px;
     }
 
     .etsy   {
         position: relative;
-        top: -43px; 
+        top: -55px; 
         left: 30px;       
     }
+
+    .etsy-icon {
+        width: 70px;
+    }
+
     .social-icons {
         position: relative;
-        top: -60px;
-        left: 45px;
+        top: -65px;
+        left: 50px;
     }
 
 
-    .duck3 {
+    /* .duck3 {
         position: absolute;
         left: -950px;
      }
@@ -1818,7 +1845,7 @@ p {
         width: 30px;
         left: 100px;
         top: -35px;
-     }
+     } */
 
   
 /* ABOUT ME */
@@ -1848,7 +1875,7 @@ p {
     
     .you_can {
         font-size: 18px;
-        color: rgb(154, 195, 234);
+        color: rgb(130, 218, 197);
     }
     .my_email {
         font-size: 25px;
@@ -1898,18 +1925,19 @@ p {
         margin: auto;
         width: 350px;
         height: auto;
+        margin-top: 20px;
     }
 
     .duck4 {
         left: 280px;
-        top: 60px
+        top: 150px
     }
 
     .honk4 {
         padding: 7px;
         font-size: 10px;
-        top: 30px;
-        left: 310px;
+        top: 120px;
+        left: 300px;
         border-radius: 10px 10px 10px 0px;;
     }
 
