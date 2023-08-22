@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="counter">0</div>
+    <button id="minus">minus</button>
+    <button id="plus">plus</button>
+    <script>
+        const counterValue = 0
+        const counter = document.getElementById("counter")
+        const minus = document.getElementById("minus")
+        const plus = document.getElementById("plus")
+
+        minus.addEventListener("click",function (){
+            if (Number(counter.innerHTML)-1 >= 0)  {
+                counter.innerHTML=Number(counter.innerHTML)-1
+            }
+        })
+
+        plus.addEventListener("click",function (){
+            counter.innerHTML=Number(counter.innerHTML)+1
+        })
+        
+    </script>
+</body>
+</html>
