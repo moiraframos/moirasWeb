@@ -30,7 +30,9 @@ body {
     --neckcolor: rgb(253, 195, 88);
 }
 
-
+.resize {
+    width: 10px;
+}
 
 
 
@@ -578,7 +580,7 @@ p {
 .cvqualitie {
     width: 200px;
     height: 180px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #ddff75;
@@ -587,7 +589,7 @@ p {
 .cvqualitie2 {
     width: 200px;
     height: 165px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #b1ff75;
@@ -596,7 +598,7 @@ p {
 .cvqualitie3 {
     width: 200px;
     height: 190px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #75ffd3;
@@ -605,7 +607,7 @@ p {
 .cvqualitie4 {
     width: 200px;
     height: 128px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #4bfcfc;
@@ -1941,11 +1943,21 @@ p {
         border-radius: 10px 10px 10px 0px;;
     }
 
+    
+
+
 /* FOOTER */
 
     .footer {
         position: relative;
         top: 50px;
     }  
+}
+
+
+
+
+.YT {
+    width: 75%;
 }
 
