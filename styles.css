@@ -498,7 +498,12 @@ body {
 
 
 
-/* CV  */
+
+
+
+
+
+/* OLD CV */
 .phonesubstitute {
     display: hidden;
     height: 0;
@@ -756,8 +761,8 @@ p {
    background-color: transparent; 
    width: 80px;
    height: 100px;
-   margin: auto auto 100px auto;
-   position: absolute;
+   margin: auto;
+   /* position: absolute; */
    left: 930px;
    top: 350px;
    overflow: hidden;
@@ -932,8 +937,8 @@ p {
 
 .honk4 {
     position: absolute;
-    left: 835px;
-    top: 315px;
+    top: 210px;
+    right: 430px;
     font-size: 14px;
     font-weight: lighter;
     color: transparent;
@@ -959,13 +964,31 @@ p {
 
 
 
-/* ABOUT ME */
-.aboutme {
+/* CV AND ABOUT ME */
+
+.CVABOUT {
     display: flex;
     flex-direction: row;
-    margin: 50px auto 50px auto;
+    margin: auto;
     align-items: center;
     justify-content: center;
+}
+
+.cv_pc {
+    width: 40%;
+    margin: 50px 80px 50px 30px;
+}
+
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #919191;
+    border-style: solid;
+    padding: 30px;
+    border-width: 1px;
 }
  
 .profilepic {
@@ -976,9 +999,9 @@ p {
 
 .bio {
     font-size: 14px;
-    color: #1e8675;
+    color: #5d5d5d;
     font-weight: lighter;
-    width: 620px;
+    width: 280px;
     margin: 12px;
     text-align: justify;
     text-justify: inter-word;
@@ -1851,6 +1874,19 @@ p {
 
   
 /* ABOUT ME */
+.CVABOUT {
+    flex-direction: column;
+}
+
+.cv_pc {
+    width: 90%;
+    margin: auto;
+}
+
+.aboutme {
+    border-color: transparent;
+}
+/*
     .aboutme {
         flex-direction: column;
         margin-bottom: 50px;
@@ -1861,11 +1897,10 @@ p {
     }
     .bio {
         width: 270px;
-    }
+    } */
 
     .honk {
-        left: 85px;
-        top: 600px;
+        color: transparent;
      }
 
     
@@ -1913,7 +1948,7 @@ p {
 
     /* CV */
 
-    .CVBOXES {
+    /* .CVBOXES {
         width: 0;
         height: 0;
         position: absolute;
@@ -1923,12 +1958,11 @@ p {
     }
 
     .phonesubstitute {
-        /* display: block; */
         margin: auto;
         width: 350px;
         height: auto;
         margin-top: 20px;
-    }
+    } */
 
     .duck4 {
         left: 280px;
@@ -1942,6 +1976,25 @@ p {
         left: 300px;
         border-radius: 10px 10px 10px 0px;;
     }
+
+
+    /* PROJECTS */
+
+.project_group01 {  
+    margin:  20px 10%;
+    
+}
+
+.project_group03 {
+    margin:  20px 10%;
+    text-align: center;
+}
+
+.project_group04 {
+    text-align: justify;
+}
+
+
 
     
 
