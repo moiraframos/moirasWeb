@@ -936,9 +936,9 @@ p {
 }
 
 .honk4 {
-    position: absolute;
-    top: 210px;
-    right: 430px;
+    position: relative;
+    top: -140px;
+    right: 80px;
     font-size: 14px;
     font-weight: lighter;
     color: transparent;
@@ -968,15 +968,16 @@ p {
 
 .CVABOUT {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
     align-items: center;
     justify-content: center;
 }
 
 .cv_pc {
-    width: 40%;
-    margin: 50px 80px 50px 30px;
+    width: 700px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -985,14 +986,13 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: #919191;
-    border-style: solid;
-    padding: 30px;
-    border-width: 1px;
+    margin: 40px 0 40px 0;
+
+
 }
  
 .profilepic {
-    width: 250px;
+    width: 200px;
     border-radius: 15px;
     margin: 10px;
 }
@@ -1001,7 +1001,7 @@ p {
     font-size: 14px;
     color: #5d5d5d;
     font-weight: lighter;
-    width: 280px;
+    width: 700px;
     margin: 12px;
     text-align: justify;
     text-justify: inter-word;
