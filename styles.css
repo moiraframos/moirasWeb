@@ -1600,6 +1600,18 @@ p {
     margin: 40px;
 }
 
+.YT {
+    width: 75%;
+    opacity: 100;
+}
+
+
+.YTphone {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
 
 
 
@@ -1994,6 +2006,21 @@ p {
     text-align: justify;
 }
 
+.YT {
+
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+.YTphone {
+
+opacity: 100;
+width: 80%;
+height: 80%;
+}
+
+
 
 
     
@@ -2010,7 +2037,4 @@ p {
 
 
 
-.YT {
-    width: 75%;
-}
 
