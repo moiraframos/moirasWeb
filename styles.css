@@ -30,7 +30,9 @@ body {
     --neckcolor: rgb(253, 195, 88);
 }
 
-
+.resize {
+    width: 10px;
+}
 
 
 
@@ -515,7 +517,12 @@ body {
 
 
 
-/* CV  */
+
+
+
+
+
+/* OLD CV */
 .phonesubstitute {
     display: hidden;
     height: 0;
@@ -597,7 +604,7 @@ p {
 .cvqualitie {
     width: 200px;
     height: 180px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #ddff75;
@@ -606,7 +613,7 @@ p {
 .cvqualitie2 {
     width: 200px;
     height: 165px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #b1ff75;
@@ -615,7 +622,7 @@ p {
 .cvqualitie3 {
     width: 200px;
     height: 190px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #75ffd3;
@@ -624,7 +631,7 @@ p {
 .cvqualitie4 {
     width: 200px;
     height: 128px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 15px 0;
     border-radius: 8px;
     background-color: #4bfcfc;
@@ -773,8 +780,8 @@ p {
    background-color: transparent; 
    width: 80px;
    height: 100px;
-   margin: auto auto 100px auto;
-   position: absolute;
+   margin: auto;
+   /* position: absolute; */
    left: 930px;
    top: 350px;
    overflow: hidden;
@@ -948,9 +955,9 @@ p {
 }
 
 .honk4 {
-    position: absolute;
-    left: 835px;
-    top: 315px;
+    position: relative;
+    top: -140px;
+    right: 80px;
     font-size: 14px;
     font-weight: lighter;
     color: transparent;
@@ -976,26 +983,44 @@ p {
 
 
 
-/* ABOUT ME */
-.aboutme {
+/* CV AND ABOUT ME */
+
+.CVABOUT {
     display: flex;
-    flex-direction: row;
-    margin: 50px auto 50px auto;
+    flex-direction: column;
+    margin: auto;
     align-items: center;
     justify-content: center;
 }
+
+.cv_pc {
+    width: 700px;
+    margin-bottom: 30px;
+
+}
+
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+
+
+}
  
 .profilepic {
-    width: 250px;
+    width: 200px;
     border-radius: 15px;
     margin: 10px;
 }
 
 .bio {
     font-size: 14px;
-    color: #1e8675;
+    color: #5d5d5d;
     font-weight: lighter;
-    width: 620px;
+    width: 700px;
     margin: 12px;
     text-align: justify;
     text-justify: inter-word;
@@ -1594,6 +1619,18 @@ p {
     margin: 40px;
 }
 
+.YT {
+    width: 75%;
+    opacity: 100;
+}
+
+
+.YTphone {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
 
 
 
@@ -1765,6 +1802,12 @@ p {
 }
 
 
+/* 3D */
+
+.blendervideo {
+    width: 500px;
+}
+
 
 
 /* FOOTER */
@@ -1868,6 +1911,19 @@ p {
 
   
 /* ABOUT ME */
+.CVABOUT {
+    flex-direction: column;
+}
+
+.cv_pc {
+    width: 90%;
+    margin: auto;
+}
+
+.aboutme {
+    border-color: transparent;
+}
+/*
     .aboutme {
         flex-direction: column;
         margin-bottom: 50px;
@@ -1878,11 +1934,10 @@ p {
     }
     .bio {
         width: 270px;
-    }
+    } */
 
     .honk {
-        left: 85px;
-        top: 600px;
+        color: transparent;
      }
 
     
@@ -1930,7 +1985,7 @@ p {
 
     /* CV */
 
-    .CVBOXES {
+    /* .CVBOXES {
         width: 0;
         height: 0;
         position: absolute;
@@ -1940,12 +1995,11 @@ p {
     }
 
     .phonesubstitute {
-        /* display: block; */
         margin: auto;
         width: 350px;
         height: auto;
         margin-top: 20px;
-    }
+    } */
 
     .duck4 {
         left: 280px;
@@ -1960,6 +2014,43 @@ p {
         border-radius: 10px 10px 10px 0px;;
     }
 
+
+    /* PROJECTS */
+
+.project_group01 {  
+    margin:  20px 10%;
+    
+}
+
+.project_group03 {
+    margin:  20px 10%;
+    text-align: center;
+}
+
+.project_group04 {
+    text-align: justify;
+}
+
+.YT {
+
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+.YTphone {
+
+opacity: 100;
+width: 80%;
+height: 80%;
+}
+
+
+
+
+    
+
+
 /* FOOTER */
 
     .footer {
@@ -1967,4 +2058,8 @@ p {
         top: 50px;
     }  
 }
+
+
+
+
 
