@@ -1,190 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Moira Framos </title>
-        <link rel="stylesheet" href="/styles.css">
-        <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
-        <link rel="shortcut icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
-        <link rel="shortcut icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
-        <link rel="manifest" href="/public/site.webmanifest" />
-        <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="apple-mobile-web-app-title" content="Moira Framos" />
-        <meta name="application-name" content="Moira Framos" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Character designer and visual developer">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moira Framos </title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
+    <link rel="manifest" href="/public/site.webmanifest" />
+    <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="Moira Framos" />
+    <meta name="application-name" content="Moira Framos" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Character designer and visual developer">
 
-    </head>
+</head>
 
 <body>
 
-    <!-- HEADER -->
+    <section class="WHOLENAVBAR">
+        <a class="logo-icon" href="/">
+            <img class="nv_logo" src="/public/NV_logo.png" alt="Moira Framos Visual developer">
+        </a>
 
-    <section class="head">
-        <div class="dropdown">
-            <div id="hamburger-parent">
-                <div id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+        <nav id="navbar" class="hidden space-y-x">
+            <a class="nav-link" href="/character-design.html"><img class="nvmenu" src="/public/NV01.png"></img></a>
+            <a class="nav-link" href="/char-posing.html"><img class="nvmenu" src="/public/NV02.png"></img></a>
+            <a class="nav-link" href="/gurru-bg.html"><img class="nvmenu" src="/public/NV03.png"></img></a>
+            <a class="nav-link" href="/animation.html"><img class="nvmenu" src="/public/NV04.png"></img></a>
+            <a class="nav-link" href="/game.html"><img class="nvmenu" src="/public/NV05.png"></img></a>
+            <a class="nav-link" href="/other-artists.html"><img class="nvmenu" src="/public/NV06.png"></img></a>
+            <a class="nav-link" href="/cv.html"><img class="nvmenu" src="/public/NV07.png"></img></a>
+
+        </nav>
+
+
+        <div class="NVsocial-icons">
+            <div class="icon">
+                <a id="profile-link" target="_blank" href="/contact-me.html"><img class="nvother-icons  hover-keep"
+                        src="/public/email_icon.png" /></a>
+            </div>
+            <div class="nvsocial">
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                            class="nvother-icons" src="/public/insta_icon02.png" /></a>
                 </div>
 
 
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                            class="nvother-icons" src="/public/In_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img
+                            class="nvother-icons" src="/public/git_icon02.png"></a>
+                </div>
             </div>
-            <!-- NAVBAR -->
-
-            <nav id="navbar" class="hidden space-y-x">
-                <a class="nav-link" href="/character-design.html">Character<br>design</a>
-                <a class="nav-link" href="/char-dev.html">Visual<br>development</a>
-                <a class="nav-link" href="/gurru-bg.html">Backgrounds</a>
-                <!-- <a class="nav-link" href="/ly-posing.html">LY posing</a> -->
-                <a class="nav-link" href="/animation.html">Animation</a>
-                <a class="nav-link" href="/game.html">Projects</a>
-                <a class="nav-link" href="/cv.html">CV & About</a>
-                <a class="nav-link" href="/other-artists.html">Other artists</a>
-            </nav>
-        </div>
-
-        <script>
-            var hamburger = document.getElementById("hamburger")
-            var navbar = document.getElementById("navbar")
-            document.getElementById("hamburger-parent").addEventListener("click", () => {
-                hamburger.classList.toggle("open")
-                navbar.classList.toggle("hidden")
-            })
-
-
-        </script>
-
-
-            <a class="contact_link" href="/contact-me.html"><button class="button">Contact me!</button></a>
-
-            <a class="logo-icon" href="/">
-                <!-- <div class="avatar"><img class="avatar-icon"src="/public/icon.png"></div> -->
-                <div class="name"><img class="name-icon"src="/public/Logo_v04.png" alt="Moira Framos Visual developer"></div>
-            </a>
-
-
-        <div class="social-icons">
-
-            <div class="insta icon">
-                <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
-                        class="other-icons"src="/public/insta_icon.png"></img></a>
-            </div>
-
-
-            <div class="linkedin icon">
-                <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
-                        class="other-icons"src="/public/In_icon.png"></a>
-            </div>
-
-
-            <div class="github icon">
-                <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img class="other-icons"
-                       src="/public/git_icon.png"></a>
-            </div>
-
 
         </div>
 
-        <div class="etsy icon">
-            <a id="profile-link" target="_blank" href="https://www.etsy.com/shop/MoirasTrove"><img class="etsy-icon"
-                   src="/public/shop_icon.png"></a>
-            <p class="etsy-text">My shop!</p>
-        </div>
 
 
     </section>
 
 
 
-    <!-- PROJECTS -->
-    <section id="projects">
+
+    <section class="WHOLENAVBAR_phone">
+
+        <a class="logo-icon" href="/">
+            <img class="phone_logo" src="/public/phone_logo.png" alt="Moira Framos Visual developer">
+        </a>
 
 
-        <section class="PROJECT 08 contact-me-box">
+        <nav id="navbar" class="hidden space-y-x">
+            <a class="nav-link" href="/character-design.html"><img class="nvmenu" src="/public/FP01.png"></img></a>
+            <a class="nav-link" href="/char-posing.html"><img class="nvmenu" src="/public/FP02.png"></img></a>
+            <a class="nav-link" href="/gurru-bg.html"><img class="nvmenu" src="/public/FP03.png"></img></a>
+            <a class="nav-link" href="/animation.html"><img class="nvmenu" src="/public/FP04.png"></img></a>
+            <a class="nav-link" href="/game.html"><img class="nvmenu" src="/public/FP05.png"></img></a>
+            <a class="nav-link" href="/other-artists.html"><img class="nvmenu" src="/public/FP06.png"></img></a>
+            <a class="nav-link" href="/cv.html"><img class="nvmenu" src="/public/FP07.png"></img></a>
 
-            <!-- <div class="option">
-                <div class="line">
+            <div class="nvsocial">
+                <div class="icon">
+                    <a id="profile-link" href="/contact-me.html"><img class="nvother-icons hover-keep"
+                            src="/public/email_icon.png" /></a>
+                </div>
 
-                    <input class="box" required id="name" type="text" placeholder="Your name"></input>
-
-
-                    <input class="box" required id="email" type="email" placeholder="Your email"></input>
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                            class="nvother-icons" src="/public/insta_icon02.png" /></a>
                 </div>
 
 
-                <textarea class="message" id="review" name="review">
-          </textarea>
-
-
-                <form method="post" action="mailto:f.r.moira@gmail.com">
-                    <input id="submit" type="submit" value="Send!" />
-                </form>
-            </div> -->
-
-            <!-- <p class="or">- Or -</p> -->
-
-            <div class="option theother">
-
-
-
-                <p class="you_can">You can email me here:</p>
-                <div class="copydiv">
-                    <h2 class="my_email">f.r.moira@gmail.com</h2>
-                    <button class="copybutton" onclick="copyText()"><img id="copyicon" src="/public/copy.png"></img></button>
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                            class="nvother-icons" src="/public/In_icon02.png" /></a>
                 </div>
 
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img
+                            class="nvother-icons" src="/public/git_icon02.png"></a>
+                </div>
             </div>
-              
-              
-            <script>
-                function copyText() {
-              
-                    /* Copy text into clipboard */
-                    navigator.clipboard.writeText
-                        ("f.r.moira@gmail.com");
-                }
-            </script>
-<div class="duckcontainer2">
-<div class="duck2">
-    <div class="duck-body2">
-      <div class="duck-head2">
-        <div class="eye2"></div>
-        <div class="beak2"></div>
-    </div>
-      
-      <div class="neck2"></div>
+        </nav>
 
-      <div class="body2">
-        <div class="chest2"></div>
-      </div>
-      
-      <div class="tail2"></div>
-    </div>
-      <div class="left-leg2">
-        <div class="left-knee2"></div>
-        <div class="left-foot2"></div>
-      </div>
-      <div class="right-leg2">
-          <div class="right-knee2"></div>
-          <div class="right-foot2"></div>
-      </div>
-  </div>
-</div>
-
-  <!-- <img class="duckref" width="300px" src="/public/duck_ref.png"></img> -->
+    </section>
 
 
-        </section>
+    <!-- PROJECTS -->
+    <section id="project">
+
+        <div class="option theother">
+
+            <p class="you_can">You can email me here:</p>
+            <div class="copydiv">
+                <h2 class="my_email">f.r.moira@gmail.com</h2>
+                <button class="copybutton" onclick="copyText()"><img id="copyicon"
+                        src="/public/copy.png"></img></button>
+            </div>
+
+        </div>
+
+
+        <script>
+            function copyText() {
+
+                /* Copy text into clipboard */
+                navigator.clipboard.writeText
+                    ("f.r.moira@gmail.com");
+            }
+        </script>
+        <div class="duckcontainer2">
+            <div class="duck2">
+                <div class="duck-body2">
+                    <div class="duck-head2">
+                        <div class="eye2"></div>
+                        <div class="beak2"></div>
+                    </div>
+
+                    <div class="neck2"></div>
+
+                    <div class="body2">
+                        <div class="chest2"></div>
+                    </div>
+
+                    <div class="tail2"></div>
+                </div>
+                <div class="left-leg2">
+                    <div class="left-knee2"></div>
+                    <div class="left-foot2"></div>
+                </div>
+                <div class="right-leg2">
+                    <div class="right-knee2"></div>
+                    <div class="right-foot2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <img class="duckref" width="300px" src="/public/duck_ref.png"></img> -->
+
+
+    </section>
 
 
     </section>
@@ -194,7 +181,8 @@
 </body>
 
 <footer>
-    <h2 class="footer">Web design by Moira Framos <br> Developed by Moira Framos with the support of <a id="profile-link" target="_blank" href="https://www.crissto.dev/">Crissto</a></h2>
+    <h2 class="footer">Web design by Moira Framos <br> Developed by Moira Framos with the support of <a
+            id="profile-link" target="_blank" href="https://www.crissto.dev/">Crissto</a></h2>
 </footer>
 
 </html>

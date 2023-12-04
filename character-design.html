@@ -1,194 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Moira Framos </title>
-        <link rel="stylesheet" href="/styles.css">
-        <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
-        <link rel="shortcut icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
-        <link rel="shortcut icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
-        <link rel="manifest" href="/public/site.webmanifest" />
-        <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="apple-mobile-web-app-title" content="Moira Framos" />
-        <meta name="application-name" content="Moira Framos" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Character designer and visual developer">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moira Framos </title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
+    <link rel="manifest" href="/public/site.webmanifest" />
+    <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="Moira Framos" />
+    <meta name="application-name" content="Moira Framos" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Character designer and visual developer">
 
-    </head>
+</head>
 
 <body>
 
-    <!-- HEADER -->
-
-    <section class="head">
-        <div class="dropdown">
-            <div id="hamburger-parent">
-                <div id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
 
 
-            </div>
-            <!-- NAVBAR -->
-
-            <nav id="navbar" class="hidden space-y-x">
-                <a class="nav-link" href="/character-design.html">Character<br>design</a>
-                <a class="nav-link" href="/char-dev.html">Visual<br>development</a>
-                <a class="nav-link" href="/gurru-bg.html">Backgrounds</a>
-                <!-- <a class="nav-link" href="/ly-posing.html">LY posing</a> -->
-                <a class="nav-link" href="/animation.html">Animation</a>
-                <a class="nav-link" href="/game.html">Projects</a>
-                <a class="nav-link" href="/cv.html">CV & About</a>
-                <a class="nav-link" href="/other-artists.html">Other artists</a>
-            </nav>
-        </div>
-
-        <script>
-            var hamburger = document.getElementById("hamburger")
-            var navbar = document.getElementById("navbar")
-            document.getElementById("hamburger-parent").addEventListener("click", () => {
-                hamburger.classList.toggle("open")
-                navbar.classList.toggle("hidden")
-            })
+    <section class="WHOLENAVBAR">
+        <a class="logo-icon" href="/">
+            <img class="nv_logo" src="/public/NV_logo.png" alt="Moira Framos Visual developer">
+        </a>
 
 
-        </script>
+        <nav id="navbar" class="hidden space-y-x">
+            <a class="nav-link" href="/character-design.html"><img class="nvmenu hover-keep"
+                    src="/public/NV01.png"></img></a>
 
-
-
-            <a class="contact_link" href="/contact-me.html"><button class="button">Contact me!</button></a>
-
-            <a class="logo-icon" href="/">
-                <!-- <div class="avatar"><img class="avatar-icon" src="/public/icon.png"></div> -->
-                <div class="name"><img class="name-icon" src="/public/Logo_v04.png" alt="Moira Framos Visual developer">
-                </div>
+            <a class="nav-link" href="/character-design.html">
+                <h2 class="sub-nvmenu hover-keep ">Character design</h2>
             </a>
+            <a class="nav-link" href="/concept-art.html">
+                <h2 class="sub-nvmenu">Concept art</h2>
+            </a>
+            <a class="nav-link" href="/prop-design.html">
+                <h2 class="sub-nvmenu"> Prop design</h2>
+            </a>
+            <a class="nav-link" href="/Graphic-design.html">
+                <h2 class="sub-nvmenu">Graphic design</h2>
+            </a>
+            <br>
+
+            <a class="nav-link" href="/char-posing.html"><img class="nvmenu" src="/public/NV02.png"></img></a>
+            <a class="nav-link" href="/gurru-bg.html"><img class="nvmenu" src="/public/NV03.png"></img></a>
+            <a class="nav-link" href="/animation.html"><img class="nvmenu" src="/public/NV04.png"></img></a>
+            <a class="nav-link" href="/game.html"><img class="nvmenu" src="/public/NV05.png"></img></a>
+            <a class="nav-link" href="/other-artists.html"><img class="nvmenu" src="/public/NV06.png"></img></a>
+            <a class="nav-link" href="/cv.html"><img class="nvmenu" src="/public/NV07.png"></img></a>
+
+        </nav>
 
 
-        <div class="social-icons">
-
-            <div class="insta icon">
-                <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
-                        class="other-icons" src="/public/insta_icon.png"></img></a>
+        <div class="NVsocial-icons">
+            <div class="icon">
+                <a id="profile-link" target="_blank" href="/contact-me.html"><img class="nvother-icons"
+                        src="/public/email_icon.png" /></a>
             </div>
+            <div class="nvsocial">
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                            class="nvother-icons" src="/public/insta_icon02.png" /></a>
+                </div>
 
 
-            <div class="linkedin icon">
-                <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
-                        class="other-icons" src="/public/In_icon.png"></a>
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                            class="nvother-icons" src="/public/In_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img
+                            class="nvother-icons" src="/public/git_icon02.png"></a>
+                </div>
             </div>
-
-
-            <div class="github icon">
-                <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img class="other-icons"
-                        src="/public/git_icon.png"></a>
-            </div>
-
 
         </div>
 
-        <div class="etsy icon">
-            <a id="profile-link" target="_blank" href="https://www.etsy.com/shop/MoirasTrove"><img class="etsy-icon"
-                    src="/public/shop_icon.png"></a>
-            <p class="etsy-text">My shop!</p>
-        </div>
 
 
     </section>
 
+    <section class="WHOLENAVBAR_phone">
+
+        <a class="logo-icon" href="/">
+            <img class="phone_logo" src="/public/phone_logo.png" alt="Moira Framos Visual developer">
+        </a>
+
+
+        <nav id="navbar" class="hidden space-y-x">
+            <a class="nav-link" href="/character-design.html"><img class="nvmenu hover-keep"
+                    src="/public/FP01.png"></img></a>
+
+            <a class="nav-link" href="/character-design.html">
+                <h2 class="sub-nvmenu hover-keep ">Character design</h2>
+            </a>
+            <a class="nav-link" href="/concept-art.html">
+                <h2 class="sub-nvmenu">Concept art</h2>
+            </a>
+            <a class="nav-link" href="/prop-design.html">
+                <h2 class="sub-nvmenu"> Prop design</h2>
+            </a>
+            <a class="nav-link" href="/Graphic-design.html">
+                <h2 class="sub-nvmenu">Graphic design</h2>
+            </a>
+            <br>
+            <a class="nav-link" href="/char-posing.html"><img class="nvmenu" src="/public/FP02.png"></img></a>
+            <a class="nav-link" href="/gurru-bg.html"><img class="nvmenu" src="/public/FP03.png"></img></a>
+            <a class="nav-link" href="/animation.html"><img class="nvmenu" src="/public/FP04.png"></img></a>
+            <a class="nav-link" href="/game.html"><img class="nvmenu" src="/public/FP05.png"></img></a>
+            <a class="nav-link" href="/other-artists.html"><img class="nvmenu" src="/public/FP06.png"></img></a>
+            <a class="nav-link" href="/cv.html"><img class="nvmenu" src="/public/FP07.png"></img></a>
+
+            <div class="nvsocial">
+                <div class="icon">
+                    <a id="profile-link" href="/contact-me.html"><img class="nvother-icons"
+                            src="/public/email_icon.png" /></a>
+                </div>
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                            class="nvother-icons" src="/public/insta_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                            class="nvother-icons" src="/public/In_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img
+                            class="nvother-icons" src="/public/git_icon02.png"></a>
+                </div>
+            </div>
+        </nav>
+
+    </section>
 
 
     <!-- PROJECTS -->
-    <section id="projects">
+    <section id="project">
 
-        <section class="PROJECT 02">
+        <div class="imgsC">
+            <img class="imgC" src="/public/ch01.png"></img>
+            <img class="imgC" src="/public/ch02.png"></img>
+            <img class="imgC" src="/public/ch06.png"></img>
+            <img class="imgC" src="/public/ch08.png"></img>
+            <img class="imgC" src="/public/ch09.png"></img>
+            <img class="imgC" src="/public/ch10.png"></img>
+            <img class="imgC" src="/public/ch11.png"></img>
+            <video controls="" autoplay="" loop="" class="blendervideo">
+                <source src="/public/VI01.mp4" type="video/mp4">
+            </video>
+            <img class="imgC" src="/public/ga11.png"></img>
+            <img class="imgC" src="/public/ga07.png"></img>
+            <img class="imgC" src="/public/ga05.png"></img>
+            <img class="imgC" src="/public/vd11.png"></img>
+            <video controls="" autoplay="" loop="" class="blendervideo">
+                <source src="/public/VI02.mov" type="video/mp4">
+            </video>
+            <img class="imgC" src="/public/vd04.png"></img>
+            <img class="imgC" src="/public/vd02.png"></img>
+            <img class="imgC" src="/public/vd05.png"></img>
+            <img class="imgC" src="/public/vd08.png"></img>
+            <img class="imgC" src="/public/vd01.png"></img>
 
-            <div class="parent">
-
-                <div class="imgsC">
-                    <img class="imgC" src="/public/ch01.png"></img>
-                    <img class="imgC" src="/public/ch02.png"></img>
-                    <img class="imgC" src="/public/ch06.png"></img>
-                    <img class="imgC" src="/public/ch08.png"></img>                    
-                    <img class="imgC" src="/public/ch09.png"></img>
-                    <img class="imgC" src="/public/ch10.png"></img>
-                    <img class="imgC" src="/public/ch11.png"></img>
-                    <img class="imgC" src="/public/ga11.png"></img>
-                    <img class="imgC" src="/public/ga07.png"></img>
-                    <img class="imgC" src="/public/ga05.png"></img>
-
-                </div>
-
-<!-- 
-                <div class="invisible-box" id="invisibleBox">
-                    <img class="img enlarge" id="enlarge"></img>
-                </div> -->
-            </div>
-
-        </section>
-
-
+        </div>
     </section>
 
-    <script>
-        // @ts-check
-        const enlarged = document.getElementById("enlarge")
-        const invisibleBox = document.getElementById("invisibleBox")
-        const body = document.getElementsByTagName("body")[0]
-        document.querySelectorAll(".imgsC .imgC").forEach((el) => {
-            el.addEventListener("click", (event) => {
-                event.stopPropagation()
-                invisibleBox.style.width = "100%"
-                invisibleBox.style.height = "100%"
-                enlarged.src = el.src
-                if (body.clientHeight > window.innerHeight) {
-                    console.log(window.scrollY)
-                    invisibleBox.style.top = (window.screenY + 150) + "px"
-                    console.log(window.innerWidth, enlarged.width)
-                    if (window.innerWidth > enlarged.width) {
-                        invisibleBox.style.transform = "translateY(-50%)"   
-                        invisibleBox.style.left = (window.innerWidth - enlarged.width) / 2 + "px"
-                    }
-                }
-
-                document.addEventListener("click", () => {
-                    invisibleBox.style.width = 0
-                    invisibleBox.style.height = 0
-                    invisibleBox.style.transform = "translateY(-50%) translateX(-50%)"
-                    setTimeout(() => enlarged.src = "", 250)
-                })
-                document.addEventListener("keydown", (ev) => {
-                    if (ev.key == "Escape") {
-                        invisibleBox.style.width = 0
-                        invisibleBox.style.height = 0
-                        invisibleBox.style.transform = "translateY(-50%) translateX(-50%)"
-                        setTimeout(() => enlarged.src = "", 250)
-
-                    }
-                })
-
-
-            })
-
-        })
-
-
-    </script>
-
-
-    <!-- <script type="module"src="/public/main.js"></script> -->
 </body>
 <footer>
-    <h2 class="footer">Web design by Moira Framos <br> Developed by Moira Framos with the support of <a id="profile-link" target="_blank" href="https://www.crissto.dev/">Crissto</a></h2>
+    <h2 class="footer">Web design by Moira Framos <br> Developed by Moira Framos with the support of <a
+            id="profile-link" target="_blank" href="https://www.crissto.dev/">Crissto</a></h2>
 </footer>
+
 </html>

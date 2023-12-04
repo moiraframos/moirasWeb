@@ -1,394 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Moira Framos </title>
-        <link rel="stylesheet" href="/styles.css">
-        <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
-        <link rel="shortcut icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
-        <link rel="shortcut icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
-        <link rel="manifest" href="/public/site.webmanifest" />
-        <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="apple-mobile-web-app-title" content="Moira Framos" />
-        <meta name="application-name" content="Moira Framos" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="description" content="Character designer and visual developer">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moira Framos </title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
+    <link rel="manifest" href="/public/site.webmanifest" />
+    <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="Moira Framos" />
+    <meta name="application-name" content="Moira Framos" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Character designer and visual developer">
 
-    </head>
+</head>
 
 <body>
 
-    <!-- HEADER -->
+    <section class="WHOLENAVBAR">
+        <a class="logo-icon" href="/">
+            <img class="nv_logo" src="/public/NV_logo.png" alt="Moira Framos Visual developer">
+        </a>
 
 
-    <section class="head">
-        <div class="dropdown">
-            <div id="hamburger-parent">
-                <div id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <nav id="navbar" class="hidden space-y-x">
+            <a class="nav-link" href="/character-design.html"><img class="nvmenu" src="/public/NV01.png"></img></a>
+            <a class="nav-link" href="/char-posing.html"><img class="nvmenu" src="/public/NV02.png"></img></a>
+            <a class="nav-link" href="/gurru-bg.html"><img class="nvmenu" src="/public/NV03.png"></img></a>
+            <a class="nav-link" href="/animation.html"><img class="nvmenu" src="/public/NV04.png"></img></a>
+            <a class="nav-link" href="/game.html"><img class="nvmenu" src="/public/NV05.png"></img></a>
+            <a class="nav-link" href="/other-artists.html"><img class="nvmenu" src="/public/NV06.png"></img></a>
+            <a class="nav-link" href="/cv.html"><img class="nvmenu hover-keep" src="/public/NV07.png"></img></a>
+
+        </nav>
+
+
+        <div class="NVsocial-icons">
+            <div class="icon">
+                <a id="profile-link" target="_blank" href="/contact-me.html"><img class="nvother-icons"
+                        src="/public/email_icon.png" /></a>
+            </div>
+            <div class="nvsocial">
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                            class="nvother-icons" src="/public/insta_icon02.png" /></a>
                 </div>
 
 
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                            class="nvother-icons" src="/public/In_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img
+                            class="nvother-icons" src="/public/git_icon02.png"></a>
+                </div>
             </div>
-            <!-- NAVBAR -->
-
-            <nav id="navbar" class="hidden space-y-x">
-                <a class="nav-link" href="/character-design.html">Character<br>design</a>
-                <a class="nav-link" href="/char-dev.html">Visual<br>development</a>
-                <a class="nav-link" href="/gurru-bg.html">Backgrounds</a>
-                <!-- <a class="nav-link" href="/ly-posing.html">LY posing</a> -->
-                <a class="nav-link" href="/animation.html">Animation</a>
-                <a class="nav-link" href="/game.html">Projects</a>
-                <a class="nav-link" href="/cv.html">CV & About</a>
-                <a class="nav-link" href="/other-artists.html">Other artists</a>
-            </nav>
-        </div>
-
-        <script>
-            var hamburger = document.getElementById("hamburger")
-            var navbar = document.getElementById("navbar")
-            document.getElementById("hamburger-parent").addEventListener("click", () => {
-                hamburger.classList.toggle("open")
-                navbar.classList.toggle("hidden")
-            })
-
-
-        </script>
-
-
-
-            <a class="contact_link" href="/contact-me.html"><button class="button">Contact me!</button></a>
-
-            <a class="logo-icon" href="/">
-                <!-- <div class="avatar"><img class="avatar-icon"src="/public/icon.png"></div> -->
-                <div class="name"><img class="name-icon"src="/public/Logo_v04.png" alt="Moira Framos Visual developer"></div>
-            </a>
-
-
-        <div class="social-icons">
-
-            <div class="insta icon">
-                <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
-                        class="other-icons"src="/public/insta_icon.png"></img></a>
-            </div>
-
-
-            <div class="linkedin icon">
-                <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
-                        class="other-icons"src="/public/In_icon.png"></a>
-            </div>
-
-
-            <div class="github icon">
-                <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img class="other-icons"
-                       src="/public/git_icon.png"></a>
-            </div>
-
 
         </div>
 
-        <div class="etsy icon">
-            <a id="profile-link" target="_blank" href="https://www.etsy.com/shop/MoirasTrove"><img class="etsy-icon"
-                   src="/public/shop_icon.png"></a>
-            <p class="etsy-text">My shop!</p>
-        </div>
 
 
     </section>
 
 
 
+    <section class="WHOLENAVBAR_phone">
+
+        <a class="logo-icon" href="/">
+            <img class="phone_logo" src="/public/phone_logo.png" alt="Moira Framos Visual developer">
+        </a>
+
+
+        <nav id="navbar" class="hidden space-y-x">
+            <a class="nav-link" href="/character-design.html"><img class="nvmenu" src="/public/FP01.png"></img></a>
+            <a class="nav-link" href="/char-posing.html"><img class="nvmenu" src="/public/FP02.png"></img></a>
+            <a class="nav-link" href="/gurru-bg.html"><img class="nvmenu" src="/public/FP03.png"></img></a>
+            <a class="nav-link" href="/animation.html"><img class="nvmenu" src="/public/FP04.png"></img></a>
+            <a class="nav-link" href="/game.html"><img class="nvmenu" src="/public/FP05.png"></img></a>
+            <a class="nav-link" href="/other-artists.html"><img class="nvmenu" src="/public/FP06.png"></img></a>
+            <a class="nav-link" href="/cv.html"><img class="nvmenu hover-keep" src="/public/FP07.png"></img></a>
+
+            <div class="nvsocial">
+                <div class="icon">
+                    <a id="profile-link" href="/contact-me.html"><img class="nvother-icons"
+                            src="/public/email_icon.png" /></a>
+                </div>
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.instagram.com/moira_framos/"><img
+                            class="nvother-icons" src="/public/insta_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/moiraframos/"><img
+                            class="nvother-icons" src="/public/In_icon02.png" /></a>
+                </div>
+
+
+                <div class="icon">
+                    <a id="profile-link" target="_blank" href="https://github.com/moiraframos"><img
+                            class="nvother-icons" src="/public/git_icon02.png"></a>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+
     <!-- PROJECTS -->
-    <section id="projects">
-
-
-        <section class="PROJECT 06">
-            <!-- <a class="contact-link" href="/cv.html"><button class="concept-bg-button hover-keep">CV</button></a>
-            <a class="contact-link" href="/about-me.html"><button class="concept-bg-button">About</button></a> -->
-
-
-
-<!-- <div class="CVBOXES">
-
-    <div class = "QUALITIES CVBOX">
-            
-        <div class="cvqualitie">
-           <h2 class="cvbigtitle2">Languages</h2>
-
-          <div class="lang">
-             <p class="cvcualitiename">Spanish (Español)</p>
-             <div class="bar">
-                <div class="barinside1"></div>
-             </div>
-          </div>
-
-          <div class="lang">
-            <p class="cvcualitiename">English</p>
-            <div class="bar">
-               <div class="barinside2"></div>
-            </div>
-         </div>
-
-         <div class="lang">
-            <p class="cvcualitiename">French (Français)</p>
-            <div class="bar">
-               <div class="barinside3"></div>
-            </div>
-         </div>
-
-        </div>
-
-
-        <div class="cvqualitie2">
-          <h2 class="cvbigtitle2">Analogic skills</h2>
-
-          <div class="cvanalogic">
-         <div class="skills">
-            <img class="cvicon" src="/public/cvicon01.png"></img>
-            <p class="cvcualitiename2">Modeling <br> & sculpting</p>
-            
-         </div>
-
-         <div class="skills">
-            <img class="cvicon" src="/public/cvicon02.png"></img>
-             <p class="cvcualitiename2">watercolor <br> & guache</p>
-         </div>
-        </div>
-       </div>
-
-       
-       <div class="cvqualitie3">
-        <h2 class="cvbigtitle2">Social skills</h2>
-        
-        <div class="socialskillsgroup">
-        <p class="socialskill">I learn fast</p>
-        <p class="socialskill">good at solving problems</p>
-        <p class="socialskill">Wanna learn everything</p>
-        <p class="socialskill"> I Like working with people</p>
-        <p class="socialskill">Give me a challenge</p>
-        <p class="socialskill">I like order</p> 
-        </div>
-       </div>
-
-
-       <div class="cvqualitie4">
-        <h2 class="cvbigtitle2">Hobbies</h2>
-        
-        <div class="cvhobbies">
-        <img class="cvhobbieicon" src="/public/cvicon03.png"></img>
-        <img class="cvhobbieicon" src="/public/cvicon05.png"></img>
-        </div>
-       </div>
-
-       </div>
-
-         <div class = "LOGROS CVBOX">
-            
-          <div class="experience">
-             <h2 class="cvbigtitle">Professional experience</h2>
-
-             <div class="job05">
-                <div class="cvtitle">
-                 <p class="cvdate">2023</p>
-                 <p class="cvname">LY posing artist</p>
-                </div>
-                 <p class="cvdescription">In Doghead animation (Florence, Italy)</p>
-              </div>
-
-            <div class="job05">
-              <div class="cvtitle">
-               <p class="cvdate">2022</p>
-               <p class="cvname">Background artist</p>
-              </div>
-               <p class="cvdescription">In Cartoon Saloon (Kilkenny, Ireland)</p>
-            </div>
-
-            <div class="job04">
-                <div class="cvtitle">
-                <p class="cvdate">2021 - 2022</p>
-                <p class="cvname">Location designer</p>
-                </div>
-                <p class="cvdescription">In Cartoon Saloon (Kilkenny, Ireland)</p>
-            </div>
-
-            <div class="job03">
-                <div class="cvtitle">
-                <p class="cvdate">2021</p>
-                <p class="cvname"> Visual development artist</p>
-            </div>
-                <p class="cvdescription">In Cartoon Saloon (Kilkenny, Ireland)</p>
-            </div>
-
-            <div class="job02">
-                <div class="cvtitle">
-                <p class="cvdate">2021</p>
-                <p class="cvname">Color key artist [Internship]</p>
-            </div>
-                <p class="cvdescription">Shortfilm Luna (Madrid, Spain)</p>
-            </div>
-
-            <div class="job01">
-                <div class="cvtitle">
-                <p class="cvdate">2018</p>
-                <p class="cvname">Illustrator and layout designer [Self employed]</p>
-            </div>
-                <p class="cvdescription">Book: "A mi móvil no le huelen los pies" by Silvia Fuentes Moreno</p>
-            </div>
-
-          </div>
-
-
-          <div class="Education">
-            <h2 class="cvbigtitle">Education and training</h2>
-
-           <div class="education02">
-            <div class="cvtitle">
-              <p class="cvdate">2016 - 2021</p>
-              <p class="cvname">U-tad: University of technology and digital art (Madrid, Spain)</p>
-            </div>
-              <p class="cvdescription">Animation degree</p>
-           </div>
-
-           <div class="education01">
-               <div class="cvtitle">
-               <p class="cvdate">2019 - 2020</p>
-               <p class="cvname">Haute Ecole Albert Jacquard (Namur, Belgium) [Erasmus]</p>
-               </div>
-               <p class="cvdescription">2D animation course and Book, animation and naration workshops</p>
-           </div>
-         </div>
-         </div>
-
-
-
-         
-
-          <div class="SOFTWARESKILLS CVBOX">
-            <h2 class="cvbigtitle3">Software skills</h2>
-
-            <div class="softwareparent">
-            <div class="softwaregroup">
-                <p class="cvsoftware">Photoshop</p>
-                <p class="cvsoftware">Procreate</p>
-                <p class="cvsoftware">Ilustrator</p>
-                <p class="cvsoftware">Premiere</p>
-                <p class="cvsoftware">After effects</p>
-                <p class="cvsoftware">In Design</p>
-                <p class="cvsoftware">Harmony</p>
-                <p class="cvsoftware">Krita</p>
-                <p class="cvsoftware">TV Paint</p>
-                <p class="cvsoftware">Blender</p>
-                <p class="cvsoftware">Maya</p>
-                <p class="cvsoftware">Nuke studio</p>
-                <p class="cvsoftware">Dragonframe</p>
-            </div>
-
-            <img class="cv-img04" src="/public/cvicon04.png"></img>
-        </div>
-        </div>
-
-        </div> -->
-
-        <!-- <img class="phonesubstitute" src="/public/Cv-img05.png"></img> -->
-
-
-        <!-- NEW CV AND ABOUT -->
-
-        <div CLASS="CVABOUT">
+    <section id="project">
 
 
         <div class="aboutme">
-           
-             
-            <!-- <img class="profilepic" src="/public/Moira_photo.jpg"></img> -->
 
             <h2 class="bio">
-                Hey! I'm Moira, a "want to do everything" artist.
-                <br>
-                <br>
-                I do a lot of different things but my favourite skills are visual development
-                 and character design.
-                I also love creating my own small projects, it would be amazing if I could form a little group and
-                 make an original project someday! 
-                <br>
-                <br>
-                I'm also learning a bit of web development, I did this web for example (with the help of 
-                 <a id="profile-link" target="_blank" href="https://www.crissto.dev/">Christian Stoyanov</a>).
-                <br>
-                <br>
-                And to finish, I like traveling so I'm very interested in jobs abroad, full remote and freelance!
-                <br>
-                <br>
-                That's it, Hope you like my portfolio!
-            </h2>
-            </div>
-
-
-            <img class="cv_pc" src="/public/CV.jpeg"></img>
-
-
-            <div class="duck4parent">
-                <div class="duck4">
-                 <div class="duck-body4">
-                   <div class="duck-head4">
-                     <div class="eye4"></div>
-                     <div class="beak4"></div>
-                   </div>
-                   
-                   <div class="neck4"></div>
-     
-                   <div class="body4">
-                     <div class="chest4"></div>
-                   </div>
-                   
-                   <div class="tail4"></div>
-                 </div>
-                   <div class="left-leg4">
-                     <div class="left-knee4"></div>
-                     <div class="left-foot4"></div>
-                   </div>
-                   <div class="right-leg4">
-                       <div class="right-knee4"></div>
-                       <div class="right-foot4"></div>
-                   </div>
-               </div>
-     
-               <button class="honk4">Hire me!</button>
-     
-             </div>
-
-
-
+                Hey! I'm Moira, a "want to do everything" artist.</h2>
+            <br>
+            <br>
+            I do a lot of different things but my favourite skills are visual development
+            and character design.
+            I also love creating my own small projects, it would be amazing if I could form a little group and
+            make an original project someday!
+            <br>
+            <br>
+            <p>
+                I'm also learning a bit of web development, I did this web for example (with the help of
+                <a id="profile-link2" target="_blank" href="https://www.crissto.dev/">Christian Stoyanov</a>).
+            </p>
+            <br>
+            And to finish, I like traveling so I'm very interested in jobs abroad, full remote and freelance!
+            <br>
+            <br>
+            That's it, Hope you like my portfolio!
 
         </div>
 
 
+        <img class="cv_pc" src="/public/CV.jpeg"></img>
 
 
-        
+        <div class="duck4parent">
+            <div class="duck4">
+                <div class="duck-body4">
+                    <div class="duck-head4">
+                        <div class="eye4"></div>
+                        <div class="beak4"></div>
+                    </div>
 
+                    <div class="neck4"></div>
 
+                    <div class="body4">
+                        <div class="chest4"></div>
+                    </div>
 
-        </section>
+                    <div class="tail4"></div>
+                </div>
+                <div class="left-leg4">
+                    <div class="left-knee4"></div>
+                    <div class="left-foot4"></div>
+                </div>
+                <div class="right-leg4">
+                    <div class="right-knee4"></div>
+                    <div class="right-foot4"></div>
+                </div>
+            </div>
 
+            <button class="honk4">Hire me!</button>
 
+        </div>
 
-
-        <!-- <script type="module"src="/public/main.js"></script> -->
+    </section>
 </body>
 
 <footer>
-    <h2 class="footer">Web design by Moira Framos <br> Developed by Moira Framos with the support of <a id="profile-link" target="_blank" href="https://www.crissto.dev/">Crissto</a></h2>
+    <h2 class="footer">Web design by Moira Framos <br> Developed by Moira Framos with the support of <a
+            id="profile-link" target="_blank" href="https://www.crissto.dev/">Crissto</a></h2>
 </footer>
 
 </html>
