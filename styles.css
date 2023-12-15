@@ -368,7 +368,11 @@ body {
     }
 }
 
-
+.anim_title {
+    width: 250px;
+    filter: hue-rotate(160deg);
+    margin: auto;
+}
 
 
 
@@ -377,10 +381,37 @@ body {
 
 /* 3D */
 
-.blendervideo {
-    width: 80%;
+.blendervideo2 {
+    /* this is for the other pages this videos appear on */
+    width: 50%;
 }
 
+
+.sargo {
+    margin-top: 40px;
+    width: 550px;
+}
+
+.birds {
+    width: 450px;
+}
+
+.blendervideo {
+    margin: 10px;
+    border: #538378;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.model_group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
 
 
 
@@ -1795,6 +1826,15 @@ body {
         font-size: 12px;
     }
 
+    /* 3D */
+
+    .blendervideo {
+        width: 200PX;
+    }
+
+    .model_group {
+        max-width: 350px;
+    }
 
 
 
